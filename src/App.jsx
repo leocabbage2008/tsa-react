@@ -1,4 +1,5 @@
 import './App.css';
+import lantern from './lantern.png';
 
 function App() {
   return (
@@ -9,11 +10,7 @@ function App() {
             href={window.location.href.split('/')[2]}
             className='navbar navbar-light bg-light'
           >
-            <img
-              src='./images/lantern.png'
-              className='h-10 w-10 mx-2'
-              alt='logo'
-            />
+            <img src={lantern} className='h-10 w-10 mx-2' alt='logo' />
             Lantern Festival
           </a>
           <button
