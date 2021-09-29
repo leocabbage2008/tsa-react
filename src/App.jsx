@@ -10,7 +10,7 @@ function App() {
             href={window.location.href.split('/')[2]}
             className='navbar navbar-light bg-light'
           >
-            <img src={lantern} className='h-10 w-10 mx-2' alt='logo' />
+            <img src={lantern} className='h-10 w-10 ml-3 mr-5' alt='logo' />
             Lantern Festival
           </a>
           <button
@@ -23,9 +23,6 @@ function App() {
             aria-label='Toggle navigation'
           >
             <span className='navbar-toggler-icon'></span>
-            <div className='burger burger-squeeze burger-right'>
-              <div className='burger-lines'></div>
-            </div>
           </button>
           <div
             className='offcanvas offcanvas-end'
@@ -44,8 +41,8 @@ function App() {
                 aria-label='Close'
               ></button>
             </div>
-            <div className='offcanvas-body'>
-              <ul className='navbar-nav justify-content-end flex-grow-1 pe-3'>
+            <div className='offcanvas-body w-full'>
+              <ul className='navbar-nav justify-center gap-10 flex-grow-1'>
                 <li className='nav-item'>
                   <a
                     className='nav-link active'
