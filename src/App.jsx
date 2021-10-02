@@ -3,7 +3,7 @@ import lantern from './lantern.png';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='main'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
         <div className='container-fluid'>
           <a
@@ -44,16 +44,12 @@ function App() {
             <div className='offcanvas-body w-full'>
               <ul className='navbar-nav justify-center gap-10 flex-grow-1'>
                 <li className='nav-item'>
-                  <a
-                    className='nav-link active'
-                    aria-current='page'
-                    href='https://google.com'
-                  >
+                  <a className='nav-link active' aria-current='page' href='/'>
                     Home
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='https://google.com'>
+                  <a className='nav-link' href='/'>
                     Link
                   </a>
                 </li>
@@ -64,7 +60,7 @@ function App() {
                     role='button'
                     data-bs-toggle='dropdown'
                     aria-expanded='false'
-                    href='https://google.com'
+                    href='/'
                   >
                     Dropdown
                   </a>
@@ -73,12 +69,12 @@ function App() {
                     aria-labelledby='offcanvasNavbarDropdown'
                   >
                     <li>
-                      <a className='dropdown-item' href='https://google.com'>
+                      <a className='dropdown-item' href='/'>
                         Action
                       </a>
                     </li>
                     <li>
-                      <a className='dropdown-item' href='https://google.com'>
+                      <a className='dropdown-item' href='/'>
                         Another action
                       </a>
                     </li>
@@ -86,7 +82,7 @@ function App() {
                       <hr className='dropdown-divider' />
                     </li>
                     <li>
-                      <a className='dropdown-item' href='https://google.com'>
+                      <a className='dropdown-item' href='/'>
                         Something else here
                       </a>
                     </li>
