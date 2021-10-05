@@ -57,7 +57,7 @@ export default function Layout({ children }) {
                   <a className='nav-link' href='/'>
                     About Us
                   </a>
-                </li>                
+                </li>
               </ul>
             </div>
           </div>
