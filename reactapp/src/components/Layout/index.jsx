@@ -50,43 +50,14 @@ export default function Layout({ children }) {
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link' href='/'>
-                    Link
+                    What is The Lantern Festival?
                   </a>
                 </li>
-                <li className='nav-item dropdown'>
-                  <a
-                    className='nav-link dropdown-toggle'
-                    id='offcanvasNavbarDropdown'
-                    role='button'
-                    data-bs-toggle='dropdown'
-                    aria-expanded='false'
-                  >
-                    Dropdown
+                <li className='nav-item'>
+                  <a className='nav-link' href='/'>
+                    About Us
                   </a>
-                  <ul
-                    className='dropdown-menu'
-                    aria-labelledby='offcanvasNavbarDropdown'
-                  >
-                    <li>
-                      <a className='dropdown-item' href='/'>
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a className='dropdown-item' href='/'>
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <hr className='dropdown-divider' />
-                    </li>
-                    <li>
-                      <a className='dropdown-item' href='/hello'>
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
-                </li>
+                </li>                
               </ul>
             </div>
           </div>
@@ -113,7 +84,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='#' className='text-gray-400 hover:text-gray-500'>
+            <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Instagram</span>
               <svg
                 className='h-6 w-6'
@@ -129,7 +100,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='#' className='text-gray-400 hover:text-gray-500'>
+            <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Twitter</span>
               <svg
                 className='h-6 w-6'
@@ -141,7 +112,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='#' className='text-gray-400 hover:text-gray-500'>
+            <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>GitHub</span>
               <svg
                 className='h-6 w-6'
