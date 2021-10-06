@@ -1,23 +1,99 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import lantern from './lantern.png';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path='/'>
-            <Layout />
-          </Route>
-          <Route exact path='/home'>
-            <Layout>
-              <h1>this is the home boi</h1>
-            </Layout>
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <div className='main'>
+      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+        <div className='container-fluid'>
+          <a
+            href={window.location.href.split('/')[2]}
+            className='navbar navbar-light bg-light'
+          >
+            <img src={lantern} className='h-10 w-10 ml-3 mr-5' alt='logo' />
+            Lantern Festival
+          </a>
+          <button
+            className='navbar-toggler'
+            type='button'
+            data-bs-toggle='offcanvas'
+            data-bs-target='#offcanvasNavbar'
+            aria-controls='offcanvasNavbar'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+          >
+            <span className='navbar-toggler-icon'></span>
+          </button>
+          <div
+            className='offcanvas offcanvas-end'
+            tabIndex='-1'
+            id='offcanvasNavbar'
+            aria-labelledby='offcanvasNavbarLabel'
+          >
+            <div className='offcanvas-header'>
+              <h5 className='offcanvas-title' id='offcanvasNavbarLabel'>
+                Offcanvas
+              </h5>
+              <button
+                type='button'
+                className='btn-close text-reset'
+                data-bs-dismiss='offcanvas'
+                aria-label='Close'
+              ></button>
+            </div>
+            <div className='offcanvas-body w-full'>
+              <ul className='navbar-nav justify-center gap-10 flex-grow-1'>
+                <li className='nav-item'>
+                  <a className='nav-link active' aria-current='page' href='/'>
+                    Home
+                  </a>
+                </li>
+                <li className='nav-item'>
+                  <a className='nav-link' href='/'>
+                    Link
+                  </a>
+                </li>
+                <li className='nav-item dropdown'>
+                  <a
+                    className='nav-link dropdown-toggle'
+                    id='offcanvasNavbarDropdown'
+                    role='button'
+                    data-bs-toggle='dropdown'
+                    aria-expanded='false'
+                    href='/'
+                  >
+                    Dropdown
+                  </a>
+                  <ul
+                    className='dropdown-menu'
+                    aria-labelledby='offcanvasNavbarDropdown'
+                  >
+                    <li>
+                      <a className='dropdown-item' href='/'>
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a className='dropdown-item' href='/'>
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <hr className='dropdown-divider' />
+                    </li>
+                    <li>
+                      <a className='dropdown-item' href='/'>
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
   );
 }
 

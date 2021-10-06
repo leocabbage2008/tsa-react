@@ -1,6 +1,6 @@
 import React from 'react';
-import lantern from '../../lantern.png';
 
+<<<<<<< HEAD:src/components/Layout/index.jsx
 export default function Layout({ children }) {
   return (
     <div className='main'>
@@ -137,4 +137,8 @@ export default function Layout({ children }) {
       </footer>
     </div>
   );
+=======
+export default function Layout() {
+  return <div></div>;
+>>>>>>> parent of f32dc21 (Merge branch 'master' of https://github.com/leocabbage2008/tsa-react):reactapp/src/components/Layout/index.jsx
 }
