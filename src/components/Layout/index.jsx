@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import lantern from '../../lantern.png';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
@@ -8,8 +7,6 @@ import './index.css';
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
-=======
->>>>>>> 6ef9461f828e1e42c8074b2752e0346be56410f6
 
 export default function Layout({ children }) {
   return (
@@ -63,7 +60,6 @@ export default function Layout({ children }) {
                     What is The Lantern Festival?
                   </a>
                 </li>
-<<<<<<< HEAD
                 <li className='nav-item dropdown my-auto pad-8'>
                   <Menu
                     as='div'
@@ -132,12 +128,6 @@ export default function Layout({ children }) {
                       </Menu.Items>
                     </Transition>
                   </Menu>
-=======
-                <li className='nav-item'>
-                  <a className='nav-link' href='/'>
-                    About Us
-                  </a>
->>>>>>> 6ef9461f828e1e42c8074b2752e0346be56410f6
                 </li>
               </ul>
             </div>
