@@ -1,5 +1,5 @@
 import './App.css';
-import lantern from './lantern.png';
+import Layout from './components/Layout';
 
 function App() {
   return (
