@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import lantern from '../../lantern.png';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
@@ -7,6 +8,8 @@ import './index.css';
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
+=======
+>>>>>>> 6ef9461f828e1e42c8074b2752e0346be56410f6
 
 export default function Layout({ children }) {
   return (
@@ -57,9 +60,10 @@ export default function Layout({ children }) {
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link' href='/'>
-                    Link
+                    What is The Lantern Festival?
                   </a>
                 </li>
+<<<<<<< HEAD
                 <li className='nav-item dropdown my-auto pad-8'>
                   <Menu
                     as='div'
@@ -128,6 +132,12 @@ export default function Layout({ children }) {
                       </Menu.Items>
                     </Transition>
                   </Menu>
+=======
+                <li className='nav-item'>
+                  <a className='nav-link' href='/'>
+                    About Us
+                  </a>
+>>>>>>> 6ef9461f828e1e42c8074b2752e0346be56410f6
                 </li>
               </ul>
             </div>
@@ -155,7 +165,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='#' className='text-gray-400 hover:text-gray-500'>
+            <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Instagram</span>
               <svg
                 className='h-6 w-6'
@@ -171,7 +181,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='#' className='text-gray-400 hover:text-gray-500'>
+            <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Twitter</span>
               <svg
                 className='h-6 w-6'
@@ -183,7 +193,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='#' className='text-gray-400 hover:text-gray-500'>
+            <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>GitHub</span>
               <svg
                 className='h-6 w-6'
