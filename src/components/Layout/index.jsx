@@ -56,7 +56,7 @@ export default function Layout({ children }) {
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='/'>
+                  <a className='nav-link active' href='/'>
                     What is The Lantern Festival?
                   </a>
                 </li>
