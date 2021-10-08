@@ -1,5 +1,12 @@
 import React from 'react';
 import lantern from '../../lantern.png';
+import { Fragment } from 'react';
+import { Menu, Transition } from '@headlessui/react';
+import './index.css';
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
 
 export default function Layout({ children }) {
   return (
@@ -53,39 +60,74 @@ export default function Layout({ children }) {
                     Link
                   </a>
                 </li>
-                <li className='nav-item dropdown'>
-                  <a
-                    className='nav-link dropdown-toggle'
-                    id='offcanvasNavbarDropdown'
-                    role='button'
-                    data-bs-toggle='dropdown'
-                    aria-expanded='false'
+                <li className='nav-item dropdown my-auto pad-8'>
+                  <Menu
+                    as='div'
+                    className='relative inline-block text-left flex align-center'
                   >
-                    Dropdown
-                  </a>
-                  <ul
-                    className='dropdown-menu'
-                    aria-labelledby='offcanvasNavbarDropdown'
-                  >
-                    <li>
-                      <a className='dropdown-item' href='/'>
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a className='dropdown-item' href='/'>
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <hr className='dropdown-divider' />
-                    </li>
-                    <li>
-                      <a className='dropdown-item' href='/hello'>
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
+                    <div>
+                      <Menu.Button className='flex justify-center w-full hover:bg-gray-50 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'>
+                        Options
+                        <svg
+                          xmlns='http://www.w3.org/2000/svg'
+                          className='h-5 w-5 my-auto'
+                          viewBox='0 0 20 20'
+                          fill='currentColor'
+                        >
+                          <path
+                            fillRule='evenodd'
+                            d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'
+                            clipRule='evenodd'
+                          />
+                        </svg>
+                      </Menu.Button>
+                    </div>
+
+                    <Transition
+                      as={Fragment}
+                      enter='transition ease-out duration-100'
+                      enterFrom='transform opacity-0 scale-95'
+                      enterTo='transform opacity-100 scale-100'
+                      leave='transition ease-in duration-75'
+                      leaveFrom='transform opacity-100 scale-100'
+                      leaveTo='transform opacity-0 scale-95'
+                    >
+                      <Menu.Items className='origin-top-right absolute mt left-0 mt-4.5 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none'>
+                        <div className='py-1'>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <a
+                                href='#'
+                                className={classNames(
+                                  active
+                                    ? 'bg-gray-100 text-gray-900'
+                                    : 'text-gray-700',
+                                  'block px-4 py-2 text-sm'
+                                )}
+                              >
+                                Account settings
+                              </a>
+                            )}
+                          </Menu.Item>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <a
+                                href='#'
+                                className={classNames(
+                                  active
+                                    ? 'bg-gray-100 text-gray-900'
+                                    : 'text-gray-700',
+                                  'block px-4 py-2 text-sm'
+                                )}
+                              >
+                                Support
+                              </a>
+                            )}
+                          </Menu.Item>
+                        </div>
+                      </Menu.Items>
+                    </Transition>
+                  </Menu>
                 </li>
               </ul>
             </div>
@@ -95,7 +137,7 @@ export default function Layout({ children }) {
       {children}
       <div className='h-screen w-full bg-gray-300'></div>
       <footer className='bg-white'>
-        <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
+        <div className='max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='flex justify-center space-x-6 md:order-2'>
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Facebook</span>

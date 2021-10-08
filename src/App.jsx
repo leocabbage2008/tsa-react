@@ -5,18 +5,16 @@ import Layout from './components/Layout';
 function App() {
   return (
     <Router>
-      <div>
-        <Switch>
-          <Route exact path='/'>
-            <Layout />
-          </Route>
-          <Route exact path='/home'>
-            <Layout>
-              <h1>this is the home boi</h1>
-            </Layout>
-          </Route>
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path='/'>
+          <Layout />
+        </Route>
+        <Route exact path='/home'>
+          <Layout>
+            <h1>this is the home boi</h1>
+          </Layout>
+        </Route>
+      </Switch>
     </Router>
   );
 }
