@@ -3,6 +3,7 @@ import lantern from '../../lantern.png';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import './index.css';
+import { Link } from 'react-router-dom';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -13,13 +14,10 @@ export default function Layout({ children }) {
     <div className='main'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
         <div className='container-fluid'>
-          <a
-            href={window.location.href.split('/')[2]}
-            className='navbar navbar-light bg-light'
-          >
+          <Link to='/' className='navbar navbar-light bg-light'>
             <img src={lantern} className='h-10 w-10 ml-3 mr-5' alt='logo' />
             Lantern Festival
-          </a>
+          </Link>
           <button
             className='navbar-toggler'
             type='button'
