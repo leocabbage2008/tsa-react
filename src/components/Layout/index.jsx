@@ -4,10 +4,8 @@ import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import './index.css';
 import { Link } from 'react-router-dom';
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
+import classNames from '../../utils';
+import ScrollToTop from '../ScrollToTop';
 
 export default function Layout({ children }) {
   return (
@@ -204,6 +202,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </footer>
+      <ScrollToTop />
     </div>
   );
 }
