@@ -54,8 +54,8 @@ export default function Layout({ children }) {
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/'>
-                    What is The Lantern Festival?
+                  <a className='nav-link active' href='/about'>
+                    About Us
                   </a>
                 </li>
                 <li className='nav-item dropdown my-auto py-2' id='dropdown'>
@@ -65,7 +65,7 @@ export default function Layout({ children }) {
                   >
                     <div>
                       <Menu.Button className='flex justify-center w-full hover:bg-gray-50 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'>
-                        Options
+                        Lantern Festival
                         <svg
                           xmlns='http://www.w3.org/2000/svg'
                           className='h-5 w-5 my-auto'
@@ -94,8 +94,8 @@ export default function Layout({ children }) {
                         <div className='py-1'>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href='#'
+                              <Link
+                                to='/festival'
                                 className={classNames(
                                   active
                                     ? 'bg-gray-100 text-gray-900'
@@ -103,14 +103,14 @@ export default function Layout({ children }) {
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Account settings
-                              </a>
+                                About
+                              </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href='#'
+                              <Link
+                                to='/festival/recipes'
                                 className={classNames(
                                   active
                                     ? 'bg-gray-100 text-gray-900'
@@ -118,8 +118,8 @@ export default function Layout({ children }) {
                                   'block px-4 py-2 text-sm'
                                 )}
                               >
-                                Support
-                              </a>
+                                Recipes
+                              </Link>
                             )}
                           </Menu.Item>
                         </div>

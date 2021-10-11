@@ -7,11 +7,13 @@ function App() {
     <Router>
       <Switch>
         <Route exact path='/'>
-          <Layout />
-        </Route>
-        <Route exact path='/home'>
           <Layout>
-            <h1>this is the home boi</h1>
+            <h1>This is the home page.</h1>
+          </Layout>
+        </Route>
+        <Route exact path='/about'>
+          <Layout>
+            <h1>This is the about page.</h1>
           </Layout>
         </Route>
       </Switch>
