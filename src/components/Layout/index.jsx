@@ -37,7 +37,7 @@ export default function Layout({ children }) {
           >
             <div className='offcanvas-header'>
               <h5 className='offcanvas-title' id='offcanvasNavbarLabel'>
-                Offcanvas
+                Lantern Festival
               </h5>
               <button
                 type='button'
