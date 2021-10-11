@@ -1,9 +1,11 @@
-import React from 'react';
 import { useEffect, useState } from 'react';
-import classNames from '../../utils';
 
 export default function ScrollToTop() {
-  const [isVisible, setIsVisible] = useState(false);
+  const classNames = (...classes) => {
+    return classes.filter(Boolean).join(' ');
+  };
+  const [isVisible, setIsVisible] = useState(true);
+
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
       setIsVisible(true);
@@ -18,12 +20,15 @@ export default function ScrollToTop() {
       behavior: 'smooth',
     });
   };
+
   useEffect(() => {
     window.addEventListener('scroll', toggleVisibility);
+
     return () => {
       window.removeEventListener('scroll', toggleVisibility);
     };
-  });
+  }, []);
+
   return (
     <div className='fixed bottom-2 right-2'>
       <button
@@ -31,7 +36,7 @@ export default function ScrollToTop() {
         onClick={scrollToTop}
         className={classNames(
           isVisible ? 'opacity-100' : 'opacity-0',
-          'inline-flex items-center p-3 rounded-full shadow-sm text-white bg-pink-600 transition-opacity hover:bg-pink-700 focus:outline-non focus:ring-2 focus:ring-offset-2 focus:ring-pink-500'
+          'inline-flex items-center p-3 rounded-full shadow-sm text-white bg-pink-600 transition-opacity hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500'
         )}
       >
         <svg
@@ -48,6 +53,7 @@ export default function ScrollToTop() {
             d='M5 10l7-7m0 0l7 7m-7-7v18'
           />
         </svg>
+        ;
       </button>
     </div>
   );
