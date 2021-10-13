@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './index.css';
 
 export default function ScrollToTop() {
   const classNames = (...classes) => {
@@ -9,7 +8,12 @@ export default function ScrollToTop() {
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
-      setIsVisible(true);
+      if (((window.innerHeight + window.scrollY) >= document.body.offsetHeight)) {
+        setIsVisible(false);
+      }
+      else {
+        setIsVisible(true);
+      }
     } else {
       setIsVisible(false);
     }
