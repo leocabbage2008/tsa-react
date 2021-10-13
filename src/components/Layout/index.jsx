@@ -130,11 +130,12 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      {children}
-      <div className='w-full bg-gray-300' style={{ height: '3000px' }}></div>
+      <div className='w-full bg-gray-300 align-center' style={{ height: '3000px' }}>
+        {children}
+      </div>
       <footer className='z-10 bg-white'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
-          <div className='flex justify-center space-x-6 md:order-2'>
+          <div className='z-10 flex justify-center space-x-6 md:order-2'>
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Facebook</span>
               <svg
@@ -179,7 +180,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='/' className='z-10 text-gray-400 hover:text-gray-500'>
+            <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>GitHub</span>
               <svg
                 className='h-6 w-6'
