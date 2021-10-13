@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react';
+import {classNames} from '../../utils';
 
 export default function ScrollToTop() {
-  const classNames = (...classes) => {
-    return classes.filter(Boolean).join(' ');
-  };
   const [isVisible, setIsVisible] = useState(true);
 
   const toggleVisibility = () => {
@@ -38,10 +36,10 @@ export default function ScrollToTop() {
         type='button'
         onClick={scrollToTop}
         className={classNames(
-          isVisible ? 'opacity-100' : 'opacity-0',
-          'duration-200 inline-flex items-center p-3 rounded-full bg-gray-400 transition-opacity hover:bg-gray-500 hover:shadow-xl'
+          isVisible ? 'opacity-100' : 'opacity-0 cursor-default',
+          'duration-200 transition-all p-3 rounded-full bg-gray-400 hover:bg-gray-500 hover:shadow-xl'
         )}
-        id='totop'
+        disabled={!isVisible}
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'

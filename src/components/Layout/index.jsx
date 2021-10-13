@@ -5,11 +5,9 @@ import { Menu, Transition } from '@headlessui/react';
 import './index.css';
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../ScrollToTop';
+import {classNames} from '../../utils';
 
 export default function Layout({ children }) {
-  const classNames = (...classes) => {
-    return classes.filter(Boolean).join(' ');
-  };
   return (
     <div className='main'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
@@ -133,9 +131,9 @@ export default function Layout({ children }) {
         </div>
       </nav>
       {children}
-      <div className='w-full bg-gray-300' style={{ height: '1000px' }}></div>
-      <footer className='bg-white'>
-        <div className='max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
+      <div className='w-full bg-gray-300' style={{ height: '3000px' }}></div>
+      <footer className='z-10 bg-white'>
+        <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='flex justify-center space-x-6 md:order-2'>
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Facebook</span>
@@ -181,7 +179,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='/' className='text-gray-400 hover:text-gray-500'>
+            <a href='/' className='z-10 text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>GitHub</span>
               <svg
                 className='h-6 w-6'
