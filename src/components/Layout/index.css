@@ -8,3 +8,29 @@
 .mt-7\.5 {
   margin-top: 30px;
 }
+
+body {
+  background-color: #e3e9f0;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 25px;
+}
