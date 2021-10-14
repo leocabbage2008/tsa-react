@@ -1,11 +1,11 @@
 import React from 'react';
-import lantern from '../../lantern.png';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import './index.css';
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../ScrollToTop';
-import {classNames} from '../../utils';
+import { classNames } from '../../utils';
+import logo from '../../logo.png';
 
 export default function Layout({ children }) {
   return (
@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
         <div className='container-fluid'>
           <Link to='/' className='navbar navbar-light bg-light'>
-            <img src={lantern} className='h-10 w-10 ml-3 mr-5' alt='logo' />
+            <img src={logo} className='h-10 w-10 ml-3 mr-5' alt='logo' />
             Lantern Festival
           </Link>
           <button
@@ -133,9 +133,9 @@ export default function Layout({ children }) {
       <div className='w-full bg-gray-300 align-center' style={{ height: '3000px' }}>
         {children}
       </div>
-      <footer className='z-10 bg-white'>
-        <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
-          <div className='z-10 flex justify-center space-x-6 md:order-2'>
+      <footer className='bg-white'>
+        <div className='max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
+          <div className='flex justify-center space-x-6 md:order-2'>
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Facebook</span>
               <svg
