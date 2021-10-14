@@ -133,9 +133,9 @@ export default function Layout({ children }) {
       <div className='w-full bg-gray-300 align-center' style={{ height: '3000px' }}>
         {children}
       </div>
-      <footer className='bg-white'>
-        <div className='max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
-          <div className='flex justify-center space-x-6 md:order-2'>
+      <footer className='z-10 bg-white'>
+        <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
+          <div className='z-10 flex justify-center space-x-6 md:order-2'>
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Facebook</span>
               <svg
