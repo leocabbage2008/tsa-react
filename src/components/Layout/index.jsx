@@ -9,13 +9,19 @@ import logo from '../../logo.png';
 
 export default function Layout({ children }) {
   return (
-    <div className='main'>
+    <>
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
         <div className='container-fluid'>
-          <Link to='/' className='navbar navbar-light bg-light'>
-            <img src={logo} className='h-10 w-10 ml-3 mr-5' alt='logo' />
-            Lantern Festival
+        <div className="flex">
+          <Link to='/home' className='mx-2'>
+            <img src={logo} className='h-10 w-10' alt='logo' />
           </Link>
+          <Link to='/' className='my-auto mx-2'>
+            <span>
+               Lantern Festival
+            </span>
+          </Link>
+        </div>
           <button
             className='navbar-toggler'
             type='button'
@@ -130,7 +136,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      <div className='w-full bg-gray-300 align-center' style={{ height: '3000px' }}>
+      <div className='main bg-gray-300 p-4'>
         {children}
       </div>
       <footer className='z-10 bg-white'>
@@ -204,6 +210,6 @@ export default function Layout({ children }) {
         </div>
       </footer>
       <ScrollToTop />
-    </div>
+    </>
   );
 }

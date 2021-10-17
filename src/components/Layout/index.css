@@ -1,10 +1,19 @@
+:focus {
+  outline: none !important;
+}
 @media only screen and (min-width: 975px) {
   #dropdown {
     padding-left: 8px !important;
     padding-right: 8px !important;
   }
 }
-
 .mt-7\.5 {
   margin-top: 30px;
+}
+h1 {
+  color: #666666;
+  font-weight: 400;
+  vertical-align: baseline;
+  white-space: pre;
+  padding-bottom: 8px;
 }
