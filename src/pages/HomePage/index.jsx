@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../../components/Layout';
 import './index.css';
@@ -6,7 +5,30 @@ import './index.css';
 export default function HomePage() {
     return (
         <Layout>
-            <h1 className="header text-xl my-2 font-sans">Lantern Festival</h1>
+            <h1 className="header text-xl my-2 font-sans">Lantern Festival </h1>
+            <p><br/><br/><br/> <br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
+            
+            <p><br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
+            
+            <p><br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
+            
+            <p><br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
+            
+            <p><br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
+            
+            <p><br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
+            
+            <p><br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
+            
+            <p><br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut quis illo enim dolorum deleniti exercitationem, veniam ut praesentium earum porro voluptatibus pariatur obcaecati voluptate, voluptatum odit, dicta sint ullam eveniet minus hic. Aspernatur dolorem natus a optio consequatur animi officiis possimus exercitationem quam tempore rem, ratione atque nam porro?<br/><br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae id aliquam, commodi exercitationem voluptatum doloribus ex nihil. Beatae dolorum voluptatibus perspiciatis similique velit culpa explicabo, illum aperiam esse placeat quae reiciendis eius commodi quasi, doloribus iure consequuntur molestiae corporis deleniti! Corporis praesentium tenetur molestiae officiis perspiciatis iste laboriosam enim?</p>
         </Layout>
     )
 }
