@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       <nav className='navbar navbar-expand-lg navbar-light bg-light py-3'>
         <div className='container-fluid'>
           <div className='flex'>
-            <Link to='/home' className='mx-2'>
+            <Link to='/' className='mx-2'>
               <img src={logo} className='h-10 w-10' alt='logo' />
             </Link>
             <Link to='/' className='my-auto mx-2'>
@@ -97,7 +97,7 @@ export default function Layout({ children }) {
                           <Menu.Item>
                             {({ active }) => (
                               <Link
-                                to='/festival/about'
+                                to='/festival'
                                 className={classNames(
                                   active
                                     ? 'bg-gray-100 text-gray-900'
