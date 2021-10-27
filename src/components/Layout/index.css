@@ -17,3 +17,6 @@ h1 {
   white-space: pre;
   padding-bottom: 8px;
 }
+a:hover, button:hover {
+  color: #b0b8b0!important;
+}
