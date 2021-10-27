@@ -20,3 +20,7 @@ h1 {
 a:hover, button:hover {
   color: #b0b8b0!important;
 }
+
+a, button {
+  color: #212633!important;
+}
