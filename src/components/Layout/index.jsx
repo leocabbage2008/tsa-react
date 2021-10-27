@@ -187,7 +187,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='/' className='text-gray-400 hover:text-gray-500'>
+            <a href='https://github.com/leocabbage2008/tsa-react' className='text-gray-400 hover:text-gray-500' rel='noreferrer' target="_blank">
               <span className='sr-only'>GitHub</span>
               <svg
                 className='h-6 w-6'
@@ -205,7 +205,7 @@ export default function Layout({ children }) {
           </div>
           <div className='mt-8 md:mt-0 md:order-1'>
             <p className='text-center text-base text-gray-400'>
-              &copy; 2021 The Sheet, Inc. All rights reserved.
+              &copy; 2021 The Whale Like Sheep.
             </p>
           </div>
         </div>
