@@ -1,5 +1,29 @@
 .header{
-    font-size: 30px;
+    font-size: 7vmin!important;
     text-align: center;
     font-weight: bold;
+}
+
+.inner-div {
+    position: absolute;
+    left: 45vw;
+    top: 15vh;
+}
+
+.img-div{
+    background-image: url(./banner.jpg);
+    width: 100vw;
+    height: 80vh;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    padding: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
