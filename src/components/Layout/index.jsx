@@ -6,20 +6,22 @@ import { Link } from 'react-router-dom';
 import ScrollToTop from '../ScrollToTop';
 import { classNames } from '../../utils';
 import logo from '../../logo.png';
-
+ 
 export default function Layout({ children }) {
   return (
     <>
       <nav className='navbar navbar-expand-lg navbar-light bg-light py-3'>
         <div className='container-fluid'>
-          <div className='flex'>
-            <Link to='/' className='mx-2'>
-              <img src={logo} className='h-10 w-10' alt='logo' />
-            </Link>
-            <Link to='/' className='my-auto mx-2'>
-              <span>Lantern Festival</span>
-            </Link>
-          </div>
+        <div className="flex">
+          <Link to='/home' className='mx-2'>
+            <img src={logo} className='h-10 w-10' alt='logo' />
+          </Link>
+          <Link to='/' className='my-auto mx-2'>
+            <span>
+               Lantern Festival
+            </span>
+          </Link>
+        </div>
           <button
             className='navbar-toggler'
             type='button'
@@ -66,11 +68,11 @@ export default function Layout({ children }) {
                     className='relative inline-block text-left flex align-center'
                   >
                     <div>
-                      <Menu.Button className='flex justify-center w-full hover:bg-gray-50 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'>
+                      <Menu.Button className='flex justify-center w-full hover:bg-gray-50 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 dropdown'>
                         Lantern Festival
                         <svg
                           xmlns='http://www.w3.org/2000/svg'
-                          className='h-5 w-5 my-auto'
+                          className='h-5 w-5 my-auto arrow-down'
                           viewBox='0 0 20 20'
                           fill='currentColor'
                         >
@@ -82,7 +84,7 @@ export default function Layout({ children }) {
                         </svg>
                       </Menu.Button>
                     </div>
-
+ 
                     <Transition
                       as={Fragment}
                       enter='transition ease-out duration-100'
@@ -97,7 +99,7 @@ export default function Layout({ children }) {
                           <Menu.Item>
                             {({ active }) => (
                               <Link
-                                to='/festival'
+                                to='/festival/about'
                                 className={classNames(
                                   active
                                     ? 'bg-gray-100 text-gray-900'
@@ -134,11 +136,8 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      <div
-        className='main bg-gray-300 p-4'
-        style={{ height: children ? '' : '3000px' }}
-      >
-        {children ? children : 'No content yet!'}
+      <div className='main bg-gray-300 p-4'>
+        {children}
       </div>
       <footer className='z-10 bg-white'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
@@ -158,7 +157,7 @@ export default function Layout({ children }) {
                 />
               </svg>
             </a>
-
+ 
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Instagram</span>
               <svg
@@ -174,7 +173,7 @@ export default function Layout({ children }) {
                 />
               </svg>
             </a>
-
+ 
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Twitter</span>
               <svg
@@ -186,7 +185,7 @@ export default function Layout({ children }) {
                 <path d='M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84' />
               </svg>
             </a>
-
+ 
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>GitHub</span>
               <svg
