@@ -3,24 +3,10 @@
 }
 @media only screen and (min-width: 975px) {
   #dropdown {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 .mt-7\.5 {
   margin-top: 30px;
-}
-h1 {
-  color: #666666;
-  font-weight: 400;
-  vertical-align: baseline;
-  white-space: pre;
-  padding-bottom: 8px;
-}
-a:hover, button:hover {
-  color: #b0b8b0!important;
-}
-
-a, button {
-  color: #212633!important;
 }
