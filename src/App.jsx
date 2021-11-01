@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
 import RecipesPage from './pages/RecipesPage';
@@ -17,6 +17,9 @@ function App() {
           <AboutUsPage />
         </Route>
         <Route exact path='/festival'>
+          <Redirect to="/festival/about" />
+        </Route>
+        <Route exact path='/festival/about'>
           <AboutFestivalPage />
         </Route>
         <Route exact path='/festival/recipes'>

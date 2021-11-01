@@ -5,10 +5,7 @@ export default function AboutUsPage() {
   return (
     <Layout>
       <h1>Who Are We?</h1>
-      <p>
-        <br /> <br /> <br />
-        WE
-      </p>
+      <p>We are from SCASD, and built this project for TSA.</p>
     </Layout>
   );
 }
