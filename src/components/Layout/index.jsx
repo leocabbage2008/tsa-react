@@ -6,22 +6,24 @@ import { Link } from 'react-router-dom';
 import ScrollToTop from '../ScrollToTop';
 import { classNames } from '../../utils';
 import logo from '../../logo.png';
- 
-export default function Layout({ children }) {
+
+export default function Layout({ children, className }) {
   return (
     <>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light py-3'>
+      <nav
+        className={
+          'navbar navbar-expand-lg navbar-light bg-light py-3' + className
+        }
+      >
         <div className='container-fluid'>
-        <div className="flex">
-          <Link to='/home' className='mx-2'>
-            <img src={logo} className='h-10 w-10' alt='logo' />
-          </Link>
-          <Link to='/' className='my-auto mx-2'>
-            <span>
-               Lantern Festival
-            </span>
-          </Link>
-        </div>
+          <div className='flex'>
+            <Link to='/home' className='mx-2'>
+              <img src={logo} className='h-10 w-10' alt='logo' />
+            </Link>
+            <Link to='/' className='my-auto mx-2'>
+              <span>Lantern Festival</span>
+            </Link>
+          </div>
           <button
             className='navbar-toggler'
             type='button'
@@ -62,13 +64,13 @@ export default function Layout({ children }) {
                     About Us
                   </a>
                 </li>
-                <li className='nav-item dropdown my-auto py-2' id='dropdown'>
+                <li className='nav-item my-auto py-2' id='dropdown'>
                   <Menu
                     as='div'
                     className='relative inline-block text-left flex align-center'
                   >
                     <div>
-                      <Menu.Button className='flex justify-center w-full hover:bg-gray-50 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 dropdown'>
+                      <Menu.Button className='flex justify-center w-full hover:bg-gray-50'>
                         Lantern Festival
                         <svg
                           xmlns='http://www.w3.org/2000/svg'
@@ -84,7 +86,7 @@ export default function Layout({ children }) {
                         </svg>
                       </Menu.Button>
                     </div>
- 
+
                     <Transition
                       as={Fragment}
                       enter='transition ease-out duration-100'
@@ -136,9 +138,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      <div className='main bg-gray-300 p-4'>
-        {children}
-      </div>
+      <div className='main bg-gray-300 p-4'>{children}</div>
       <footer className='z-10 bg-white'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='z-10 flex justify-center space-x-6 md:order-2'>
@@ -157,7 +157,7 @@ export default function Layout({ children }) {
                 />
               </svg>
             </a>
- 
+
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Instagram</span>
               <svg
@@ -173,7 +173,7 @@ export default function Layout({ children }) {
                 />
               </svg>
             </a>
- 
+
             <a href='/' className='text-gray-400 hover:text-gray-500'>
               <span className='sr-only'>Twitter</span>
               <svg
@@ -186,7 +186,12 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='https://github.com/leocabbage2008/tsa-react' className='text-gray-400 hover:text-gray-500' rel='noreferrer' target="_blank">
+            <a
+              href='https://github.com/leocabbage2008/tsa-react'
+              className='text-gray-400 hover:text-gray-500'
+              rel='noreferrer'
+              target='_blank'
+            >
               <span className='sr-only'>GitHub</span>
               <svg
                 className='h-6 w-6'
