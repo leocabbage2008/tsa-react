@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 import './index.css';
 export default function AboutFestivalPage() {
   return (
-    <Layout>
+    <Layout className='about'>
       <h1 className='header text-xl my-2 font-sans text-center font-bold'>
         Lantern Festival
       </h1>
@@ -15,7 +15,7 @@ export default function AboutFestivalPage() {
         Starting in China as early as 206 BCE, peasants and royalty alike have
         been sending lanterns skywards for good luck. There are many saying as
         to how this tradition started, but the most common saying is that the
-        Emperor Mig of the Han dynasty noticed that Buddhist monks would light
+        Emperor Ming of the Han dynasty noticed that Buddhist monks would light
         lanterns in temples on the 15th day of the first lunar month. Because of
         this, he ordered that all households, temples, and palaces light
         lanterns on that evening. Eventually, everyone got used to this and it
@@ -32,6 +32,7 @@ export default function AboutFestivalPage() {
         that it was on of the most important celebrations and the ceremony would
         last throughout the night.
       </p>
+      <p></p>
       <br />
     </Layout>
   );

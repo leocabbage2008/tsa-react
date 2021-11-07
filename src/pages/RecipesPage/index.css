@@ -1,0 +1,6 @@
+.ingredients :first-child {
+  margin-top: 7px;
+}
+.ingredients :last-child {
+  margin-top: 7px;
+}
