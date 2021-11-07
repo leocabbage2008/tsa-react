@@ -10,20 +10,3 @@
 .mt-7\.5 {
   margin-top: 30px;
 }
-
-h1 {
-  color: #666666;
-  font-weight: 400;
-  vertical-align: baseline;
-  white-space: pre;
-  padding-bottom: .5em;
-}
-
-a:hover, button:hover {
-  color: #b0b8b0!important;
-}
-
-a, button {
-  color: #212633;
-}
-

@@ -5,10 +5,7 @@ import './index.css';
 export default function HomePage() {
   return (
     <Layout>
-      <div className="img-div"></div>
-        <div className="inner-div">
-          <h1 className="header text-xl my-2 font-sans">Lantern Festival</h1>
-        </div>
+      <h1 className='text-xl my-2 relative bg-center overflow-hidden'>Lantern Festival </h1>
     </Layout>
   );
 }
