@@ -7,13 +7,12 @@ import ScrollToTop from '../ScrollToTop';
 import { classNames } from '../../utils';
 import logo from '../../logo.png';
 
-export default function Layout({ children, className }) {
+export default function Layout({ children }) {
   return (
     <>
       <nav
-        className={
-          'navbar navbar-expand-lg navbar-light bg-light py-3' + className
-        }
+        className=
+          'navbar navbar-expand-lg navbar-light bg-light py-3'
       >
         <div className='container-fluid'>
           <div className='flex'>
@@ -138,7 +137,7 @@ export default function Layout({ children, className }) {
           </div>
         </div>
       </nav>
-      <div className='main bg-gray-300 p-4'>{children}</div>
+      <div className='main bg-gray-300 p'>{children}</div>
       <footer className='z-10 bg-white'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='z-10 flex justify-center space-x-6 md:order-2'>
