@@ -8,7 +8,6 @@ export default function HomePage() {
   return (
     <Layout>
       <ImageWithText img={banner} text='e'/>
-      <h1 className='text-3xl text-white header text-center relative bottom-10'>Lantern Festival </h1>
     </Layout>
   );
 }
