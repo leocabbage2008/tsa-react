@@ -7,7 +7,9 @@ import ImageWithText from '../../components/ImageWithText';
 export default function HomePage() {
   return (
     <Layout>
-      <ImageWithText img={banner} text='e'/>
+      <ImageWithText img={banner} text='Chinese Lantern Festival'/>
+      <hr/>
+      <p className='text-3xl text-center text-inherit'>test</p>
     </Layout>
   );
 }
