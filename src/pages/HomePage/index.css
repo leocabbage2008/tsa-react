@@ -5,10 +5,14 @@
 .container {
     position: relative;
     text-align: center;
-  }
+}
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+.outline {
+    -webkit-text-stroke: 3px black;
+    color:rgb(185,91,68);
+}
