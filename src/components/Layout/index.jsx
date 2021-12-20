@@ -16,7 +16,7 @@ export default function Layout({ children }) {
       >
         <div className='container-fluid'>
           <div className='flex'>
-            <Link to='/home' className='mx-2'>
+            <Link to='/' className='mx-2'>
               <img src={logo} className='h-10 w-10' alt='logo' />
             </Link>
             <Link to='/' className='my-auto mx-2'>

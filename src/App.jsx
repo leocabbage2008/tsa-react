@@ -25,6 +25,9 @@ function App() {
         <Route exact path='/festival/recipes'>
           <RecipesPage />
         </Route>
+        <Route exact path='/home'>
+          <Redirect to="/" />
+        </Route>
         <Route path='/'>
           <ErrorPage />
         </Route>

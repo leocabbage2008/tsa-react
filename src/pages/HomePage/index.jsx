@@ -8,7 +8,7 @@ export default function HomePage() {
     <Layout>
     <div className='p-2 mt-0.5 relative container'>
       <img className='filter blur-md object-cover half-height w-full' src={banner} alt='banner'/>
-      <p className='typography text-6xl font-semibold centered outline'>Chinese Lantern Festival</p>
+      <p className='typography text-7xl text-white font-semibold centered outline'>Chinese Lantern Festival</p>
     </div>
     <hr/>
     <div className='content '>
