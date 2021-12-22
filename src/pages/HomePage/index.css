@@ -1,16 +1,12 @@
 .half-height{
     height:50vh;
 }
-
-.container {
-    position: relative;
-    text-align: center;
-}
 .centered {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+    width:100%;
+    text-align:center;
 }
 .outline {
     -webkit-text-stroke: 3px black;

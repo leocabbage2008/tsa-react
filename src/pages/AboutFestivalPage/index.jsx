@@ -4,6 +4,8 @@ import './index.css';
 export default function AboutFestivalPage() {
   return (
     <Layout className='about'>
+      <div className='p-2'>
+        
       <h1 className='header text-xl my-2 font-sans text-center font-bold'>
         Lantern Festival
       </h1>
@@ -32,8 +34,8 @@ export default function AboutFestivalPage() {
         that it was on of the most important celebrations and the ceremony would
         last throughout the night.
       </p>
-      <p></p>
-      <br />
+      <pKr />
+      </div>
     </Layout>
   );
 }
