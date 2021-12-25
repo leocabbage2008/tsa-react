@@ -10,11 +10,11 @@ export default function HomePage() {
       <img className='filter blur-md object-cover half-height w-full text-center' src={banner} alt='banner'/>
       <p className='typography text-7xl text-white font-semibold centered outline'>Chinese Lantern Festival</p>
     </div>
-    <hr/>
+    <hr className='opacity-0' />
     <div className='content'>
-      <p className='text-center text-lg text-inherit'>
-        The Chinese Lantern Festival is a festival celebrating the final day of the Chinese New Year celebrations. 
-        </p>
+      <p className='text-center text-xl text-inherit'>
+        The Lantern Festival 
+      </p>
     </div>
     </Layout>
   );

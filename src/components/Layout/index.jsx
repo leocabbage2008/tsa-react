@@ -63,6 +63,11 @@ export default function Layout({ children }) {
                     About Us
                   </a>
                 </li>
+                <li className='nav-item'>
+                  <a className='nav-link active' href='/events'>
+                    Events
+                  </a>
+                </li>
                 <li className='nav-item my-auto py-2' id='dropdown'>
                   <Menu
                     as='div'
