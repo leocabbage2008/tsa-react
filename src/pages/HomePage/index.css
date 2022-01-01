@@ -1,16 +1,3 @@
 .vh {
   height: 85vh;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-}
-.outline {
-  color: white;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
-  paint-order: stroke fill;
-}

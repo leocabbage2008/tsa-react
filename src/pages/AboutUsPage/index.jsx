@@ -1,17 +1,18 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import banner from './banner.jpg';
+import Banner from '../../components/Banner';
 
 export default function AboutUsPage() {
   return (
     <Layout>
-      <div className='p-2 mt-0.5 relative'>
-        <img className='filter blur-md object-cover half-height w-full text-center' src={banner} alt='banner'/>
-        <p className='typography text-7xl text-white font-semibold centered outline'>About Us</p>
-      </div>
-      <div className='p-2'>
-      <h1> We used Bootstrap, Tailwind, and React in this project.</h1>
-      <h1>We are from SCASD, and built this project for TSA.</h1>
+      <Banner img={banner} text='About Us' />
+      <div className='content px-4'>
+        <hr className='mb-3 bg-red-400' />
+        <p className='text-center text-xl'>
+          We used bootstrap and tailwindcss to create this beautiful website.
+          It's also built on the React framework and also uses Headless UI.
+        </p>
       </div>
     </Layout>
   );

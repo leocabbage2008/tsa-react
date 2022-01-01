@@ -8,12 +8,10 @@ import { classNames } from '../../utils';
 import logo from '../../logo.png';
 
 export default function Layout({ children }) {
+  const currentYear = new Date().getFullYear;
   return (
-    <>
-      <nav
-        className=
-          'navbar navbar-expand-lg navbar-light bg-light py-3'
-      >
+    <div className='h-screen bg-light'>
+      <nav className='navbar navbar-expand-lg navbar-light bg-light py-3'>
         <div className='container-fluid'>
           <div className='flex'>
             <Link to='/' className='mx-2'>
@@ -61,11 +59,6 @@ export default function Layout({ children }) {
                 <li className='nav-item'>
                   <a className='nav-link active' href='/about'>
                     About Us
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='nav-link active' href='/events'>
-                    Events
                   </a>
                 </li>
                 <li className='nav-item my-auto py-2' id='dropdown'>
@@ -132,6 +125,21 @@ export default function Layout({ children }) {
                               </Link>
                             )}
                           </Menu.Item>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to='/festival/traditions'
+                                className={classNames(
+                                  active
+                                    ? 'bg-gray-100 text-gray-900'
+                                    : 'text-gray-700',
+                                  'block px-4 py-2 text-sm'
+                                )}
+                              >
+                                Traditions
+                              </Link>
+                            )}
+                          </Menu.Item>
                         </div>
                       </Menu.Items>
                     </Transition>
@@ -142,8 +150,8 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      <div className='main'>{children}</div>
-      <footer className='z-10 bg-white'>
+      <div className='main bg-light mt-0.5'>{children}</div>
+      <footer className='z-10 bg-light'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='z-10 flex justify-center space-x-6 md:order-2'>
             <a href='/' className='text-gray-400 hover:text-gray-500'>
@@ -213,12 +221,12 @@ export default function Layout({ children }) {
           </div>
           <div className='mt-8 md:mt-0 md:order-1'>
             <p className='text-center text-base text-gray-400'>
-              &copy; 2021 The Whale Like Sheep.
+              &copy; {currentYear} The Whale Like Sheep.
             </p>
           </div>
         </div>
       </footer>
       <ScrollToTop />
-    </>
+    </div>
   );
 }

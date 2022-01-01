@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
 import RecipesPage from './pages/RecipesPage';
 import AboutFestivalPage from './pages/AboutFestivalPage';
+import TraditionsPage from './pages/TraditionsPage';
 import ErrorPage from './pages/ErrorPage';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         />
         <Route exact path='/festival/about' element={<AboutFestivalPage />} />
         <Route exact path='/festival/recipes' element={<RecipesPage />} />
+        <Route exact path='/festival/traditions' element={<TraditionsPage />} />
         <Route exact path='/home' element={<Navigate to='/' />} />
         <Route path='/' element={<ErrorPage />} />
       </Routes>
