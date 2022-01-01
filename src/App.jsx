@@ -1,5 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
 import RecipesPage from './pages/RecipesPage';
@@ -9,29 +14,19 @@ import ErrorPage from './pages/ErrorPage';
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path='/'>
-          <HomePage />
-        </Route>
-        <Route exact path='/about'>
-          <AboutUsPage />
-        </Route>
-        <Route exact path='/festival'>
-          <Redirect to="/festival/about" />
-        </Route>
-        <Route exact path='/festival/about'>
-          <AboutFestivalPage />
-        </Route>
-        <Route exact path='/festival/recipes'>
-          <RecipesPage />
-        </Route>
-        <Route exact path='/home'>
-          <Redirect to="/" />
-        </Route>
-        <Route path='/'>
-          <ErrorPage />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route exact path='/' element={<HomePage />} />
+        <Route exact path='/about' element={<AboutUsPage />} />
+        <Route
+          exact
+          path='/festival'
+          element={<Navigate to='/festival/about' />}
+        />
+        <Route exact path='/festival/about' element={<AboutFestivalPage />} />
+        <Route exact path='/festival/recipes' element={<RecipesPage />} />
+        <Route exact path='/home' element={<Navigate to='/' />} />
+        <Route path='/' element={<ErrorPage />} />
+      </Routes>
     </Router>
   );
 }
