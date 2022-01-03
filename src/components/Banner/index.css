@@ -1,3 +1,7 @@
-.homie{
-  height:50vh;
+.vh {
+  height: 55vh;
+}
+
+.banner-head {
+  font-family: 'Rajdhani', sans-serif;
 }

@@ -8,11 +8,11 @@ import { classNames } from '../../utils';
 import logo from '../../logo.png';
 
 export default function Layout({ children }) {
-  const currentYear = new Date().getFullYear;
+  const currentYear = new Date().getFullYear();
   return (
     <div className='h-screen bg-light'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light py-3'>
-        <div className='container-fluid'>
+        <div className='container-fluid navbar'>
           <div className='flex'>
             <Link to='/' className='mx-2'>
               <img src={logo} className='h-10 w-10' alt='logo' />
