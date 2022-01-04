@@ -14,22 +14,15 @@ export default function HomePage() {
           className="btn btn-danger mx-auto relative -top-8 py-3 px-5 text-xl"
           to="/events"
         >
-          Get Tickets Here
+          See Events Here
         </Link>
         <div className="body relative -top-3">
           <hr />
-          <p className="text-center text-xl">
-            The Lantern Festival has been around for over 2,000 years.
+          <p className="text-center mx-72 text-3xl">
+            The Magical Chinese Lantern Festival...
           </p>
-          <p className="text-center text-xl">
-            It's been an important part of Asian culture.
-          </p>
-          <p className="text-center text-xl">
-            Due to the Coronavirus pandemic, we will no longer be holding our
-            annual celebrations in-person.
-          </p>
-          <p className="text-center text-xl">
-            Instead, tickets will be available{" "}
+          <p className="text-center mx-72 mt-6 text-2xl">
+            From the comfort of your own home!
           </p>
         </div>
       </div>
