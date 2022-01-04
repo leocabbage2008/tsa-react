@@ -5,7 +5,7 @@ function Banner({ img, text }) {
   return (
     <div className="p-2 mt-0.5 relative h-auto">
       <img
-        className="filter blur-md object-cover vh w-full text-center"
+        className="filter object-cover blur-sm vh w-full text-center"
         src={img}
         alt="banner"
       />

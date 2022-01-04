@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap");
 
 .centered {
   position: absolute;
@@ -24,9 +24,12 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
-:not(.banner-head){
-  font-family: 'Nunito', sans-serif;
+:not(.banner-head) {
+  font-family: "Nunito", sans-serif;
 }
 :focus {
   outline: none !important;
+}
+.link-default {
+  color: rgb(0, 119, 255);
 }

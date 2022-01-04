@@ -24,6 +24,18 @@ export default function HomePage() {
           <p className="text-center mx-72 mt-6 text-2xl">
             From the comfort of your own home!
           </p>
+          <p className="mx-14 mt-6 text-2xl">
+            Due to the Covid-19 pandemic, we will not be hosting our annoual
+            celebrations online. Instead, we're having our completely free
+            events online. Click the button above to learn more about our
+            events, or click{" "}
+            <u>
+              <Link to="/festival/about" className="link-default">
+                here
+              </Link>
+            </u>{" "}
+            to learn more about the Chinese Lantern Festival.
+          </p>
         </div>
       </div>
     </Layout>
