@@ -10,12 +10,12 @@ export default function AboutFestivalPage() {
       <div className='p-2'>
         <Banner img={banner} text='About Festival' />
         <div className='content px-4'>
-          <hr className='mb-3 bg-red-400' />
           <p className='text-xl text-center'>
             The Lantern Festival is a festival that's been celebrated for over
             2000 years.
           </p>
-          <hr className='mb-3 bg-red-400' />
+          <hr />
+
           <p className='text-xl text-center'>
             Starting in China as early as 206 BCE, peasants and royalty alike
             have been sending lanterns skywards for good luck. There are many
@@ -26,7 +26,8 @@ export default function AboutFestivalPage() {
             temples, and palaces light lanterns on that evening. Eventually,
             everyone got used to this and it became a folk custom.
           </p>
-          <hr className='mb-3 bg-red-400' />
+          <hr />
+
           <p className='text-xl text-center'>
             Another saying says that it was a time to worship Taiyi, the God of
             Heaven in ancient Chinese mythology. It was said that he controlled

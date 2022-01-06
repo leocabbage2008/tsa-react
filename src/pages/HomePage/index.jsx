@@ -11,16 +11,16 @@ export default function HomePage() {
       <Banner img={banner} text='Lantern Festival' />
       <div className='content mx-4 flex flex-col justify-center'>
         <Link
-          className='btn btn-danger mx-auto relative -top-8 py-3 px-4 text-2xl rounded-md events'
+          className='btn btn-danger mx-auto relative -top-16 py-3 px-5 text-xl animate-bounce duration-700'
           to='/events'
         >
           See Events Here
         </Link>
-        <div className='body relative -top-1'>
-          <p className='text-center mx-72 text-3xl'>
-            The Magical Chinese Lantern Festival
+        <div className='body relative -top-3'>
+          <p className='text-center text-3xl'>
+            The Magical Chinese Lantern Festival...
           </p>
-          <p className='text-center mx-72 mt-6 text-2xl'>
+          <p className='text-center mt-6 text-2xl'>
             From the comfort of your own home!
           </p>
           <p className='mx-14 mt-6 text-2xl'>

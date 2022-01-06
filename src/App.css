@@ -30,12 +30,9 @@ body {
 :focus {
   outline: none !important;
 }
-.link-default {
-  color: rgb(0, 119, 255);
-}
 .link {
   text-decoration: none;
-  color: #0074d9;
+  color: #c2240b !important;
   position: relative;
 }
 
@@ -43,17 +40,18 @@ body {
   content: '';
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   width: 0;
   height: 2px;
-  background-color: #0074d9;
+  background-color: #ffb401;
   transition: width 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  width: 100%;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .link:hover::before {
-    left: 0;
-    right: auto;
-    width: 100%;
+    right: 0;
+    left: auto;
+    width: 0%;
   }
 }

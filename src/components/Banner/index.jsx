@@ -9,9 +9,10 @@ function Banner({ img, text }) {
         src={img}
         alt='banner'
       />
-      <p className='text-5xl sm:text-5xl md:text-6xl lg:text-9xl text-white font-semibold centered outline banner-head'>
+      <p className='text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white font-semibold centered outline banner-head'>
         {text}
       </p>
+      <hr className='relative -top-2.5' />
     </div>
   );
 }
