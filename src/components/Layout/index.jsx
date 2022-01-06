@@ -10,8 +10,8 @@ import logo from '../../logo.png';
 export default function Layout({ children }) {
   const currentYear = new Date().getFullYear();
   return (
-    <div className='h-screen bg-light'>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light py-3'>
+    <div className='h-auto bg-light'>
+      <nav className='navbar navbar-expand-lg navbar-light py-3'>
         <div className='container-fluid navbar'>
           <div className='flex'>
             <Link to='/' className='mx-2'>
@@ -150,8 +150,8 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      <div className='main bg-slate-200'>{children}</div>
-      <footer className='z-10 bg-light'>
+      <div className='main'>{children}</div>
+      <footer className='z-10'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='z-10 flex justify-center space-x-6 md:order-2'>
             <a href='/' className='text-gray-400 hover:text-gray-500'>

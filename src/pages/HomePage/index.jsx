@@ -18,7 +18,7 @@ export default function HomePage() {
         </Link>
         <div className='body relative -top-3'>
           <p className='text-center mx-72 text-3xl'>
-            The Magical Chinese Lantern Festival...
+            The Magical Chinese Lantern Festival
           </p>
           <p className='text-center mx-72 mt-6 text-2xl'>
             From the comfort of your own home!
