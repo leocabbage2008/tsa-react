@@ -1,0 +1,4 @@
+.events:hover {
+  background-color: rgb(213, 79, 79);
+  transition: 0.3s;
+}

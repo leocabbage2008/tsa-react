@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap');
 
 .centered {
   position: absolute;
@@ -25,11 +25,35 @@ body {
   overflow-x: hidden;
 }
 :not(.banner-head) {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 :focus {
   outline: none !important;
 }
 .link-default {
   color: rgb(0, 119, 255);
+}
+.link {
+  text-decoration: none;
+  color: #0074d9;
+  position: relative;
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0074d9;
+  transition: width 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }

@@ -11,12 +11,12 @@ export default function HomePage() {
       <Banner img={banner} text='Lantern Festival' />
       <div className='content mx-4 flex flex-col justify-center'>
         <Link
-          className='btn btn-danger mx-auto relative -top-8 py-3 px-4 text-2xl rounded-md'
+          className='btn btn-danger mx-auto relative -top-8 py-3 px-4 text-2xl rounded-md events'
           to='/events'
         >
           See Events Here
         </Link>
-        <div className='body relative -top-3'>
+        <div className='body relative -top-1'>
           <p className='text-center mx-72 text-3xl'>
             The Magical Chinese Lantern Festival
           </p>
@@ -28,11 +28,9 @@ export default function HomePage() {
             celebrations online. Instead, we're having our completely free
             events online. Click the button above to learn more about our
             events, or click{' '}
-            <u>
-              <Link to='/festival/about' className='link-default'>
-                here
-              </Link>
-            </u>{' '}
+            <Link to='/festival/about' className='link'>
+              here
+            </Link>{' '}
             to learn more about the Chinese Lantern Festival.
           </p>
         </div>
