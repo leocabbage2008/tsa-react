@@ -1,6 +1,6 @@
 .scrollToTop {
-  background-color: #dc143c;
-  color: #ffd700;
+  background-color: var(--light-red);
+  color: var(--gold);
 }
 .scrollToTop:hover {
   background-color: var(--red);

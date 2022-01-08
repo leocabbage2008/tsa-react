@@ -50,7 +50,10 @@ export default function Layout({ children }) {
               ></button>
             </div>
             <div className='offcanvas-body w-full'>
-              <ul className='navbar-nav justify-center flex-grow-1'>
+              <ul
+                className='navbar-nav justify-center flex-grow-1'
+                id='nav-links'
+              >
                 <li className='nav-item'>
                   <a className='nav-link active' aria-current='page' href='/'>
                     Home
@@ -65,6 +68,7 @@ export default function Layout({ children }) {
                   <Menu
                     as='div'
                     className='relative inline-block text-left flex align-center'
+                    id='inner-dropdown'
                   >
                     <div>
                       <Menu.Button className='flex justify-center w-full hover:bg-gray-50'>

@@ -2,9 +2,17 @@
 
 :root {
   --gold: #ffd700;
+  /* for gold hover */
   --mustard: #ffb300;
+  /* for mustard hover */
+  --corn: #ffbf00;
   --red: #c2240b;
-  --light-red: #dc143c;
+  --light-red: #d22b2b;
+  --black: #1b1212;
+}
+
+* {
+  background-color: var(--black);
 }
 
 .children * {
@@ -16,11 +24,13 @@
 }
 
 footer * {
-  color: var(--mustard);
+  color: var(--mustard) !important;
 }
 
-* {
-  background-color: black;
+.nav-link:hover,
+#inner-dropdown :hover {
+  color: var(--corn) !important;
+  background-color: var(--black);
 }
 
 .centered {
@@ -33,18 +43,18 @@ footer * {
 
 .outline {
   color: #ffb401 !important;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: 3px 3px 0 var(--black), -1px -1px 0 var(--black),
+    1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
 }
 
 .event-btn {
-  background-color: var(--red);
+  background-color: var(--light-red);
   color: #ffb401 !important;
   transition: 0.3s all;
 }
 
 .event-btn:hover {
-  background-color: #dc143c;
+  background-color: var(--red);
   color: #ffb401 !important;
 }
 
