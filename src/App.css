@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap');
 
+:root {
+  --gold: #ffd700;
+  --mustard: #ffb300;
+  --red: #c2240b;
+  --light-red: #dc143c;
+}
+
+.children * {
+  color: var(--mustard);
+}
+
+#nav * {
+  color: var(--mustard);
+}
+
+footer * {
+  color: var(--mustard);
+}
+
+* {
+  background-color: black;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -7,12 +30,24 @@
   width: 100%;
   text-align: center;
 }
+
 .outline {
-  color: white;
+  color: #ffb401 !important;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
-  paint-order: stroke fill;
 }
+
+.event-btn {
+  background-color: var(--red);
+  color: #ffb401 !important;
+  transition: 0.3s all;
+}
+
+.event-btn:hover {
+  background-color: #dc143c;
+  color: #ffb401 !important;
+}
+
 hr {
   margin-bottom: 15px;
   margin-top: 10px;
@@ -20,19 +55,23 @@ hr {
   border-top-width: 2px;
   padding-bottom: 2px;
 }
+
 body {
   height: 100vh;
   overflow-x: hidden;
 }
+
 :not(.banner-head) {
   font-family: 'Nunito', sans-serif;
 }
+
 :focus {
   outline: none !important;
 }
+
 .link {
   text-decoration: none;
-  color: #c2240b !important;
+  color: var(--red) !important;
   position: relative;
 }
 

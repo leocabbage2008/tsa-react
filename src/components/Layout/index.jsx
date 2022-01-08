@@ -11,7 +11,7 @@ export default function Layout({ children }) {
   const currentYear = new Date().getFullYear();
   return (
     <div className='h-auto bg-light'>
-      <nav className='navbar navbar-expand-lg navbar-light py-3'>
+      <nav className='navbar navbar-expand-lg navbar-light py-3' id='nav'>
         <div className='container-fluid navbar'>
           <div className='flex'>
             <Link to='/' className='mx-2'>
@@ -150,7 +150,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      <div className='main'>{children}</div>
+      <div className='children'>{children}</div>
       <footer className='z-10'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='z-10 flex justify-center space-x-6 md:order-2'>
