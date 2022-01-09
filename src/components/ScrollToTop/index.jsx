@@ -1,17 +1,13 @@
 import { useEffect, useState } from 'react';
-import {classNames} from '../../utils';
+import { classNames } from '../../utils';
+import './index.css';
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
-      if (((window.innerHeight + window.scrollY)+200 >= document.body.offsetHeight)) {
-        setIsVisible(false);
-      }
-      else {
-        setIsVisible(true);
-      }
+      setIsVisible(true);
     } else {
       setIsVisible(false);
     }
@@ -37,7 +33,7 @@ export default function ScrollToTop() {
         onClick={scrollToTop}
         className={classNames(
           isVisible ? 'opacity-100' : 'opacity-0 cursor-default',
-          'duration-200 transition-all p-3 rounded-full bg-gray-400 hover:bg-gray-500 hover:shadow-xl'
+          'duration-200 transition-all p-3 rounded-full scrollToTop hover:shadow-xl'
         )}
         disabled={!isVisible}
       >

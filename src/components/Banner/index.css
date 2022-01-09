@@ -1,13 +1,20 @@
+.vh {
+  height: 85vh;
+}
+
+@media only screen and (max-height: 600px) {
   .vh {
-    height: 300px;
+    height: 300vh;
   }
+}
 
-  @media only screen and (min-height: 600px) {
-    .vh {
-      height: 85vh;
-    }
+@media only screen and (max-width: 600px) {
+  .vh {
+    height: 50vh;
   }
+}
 
-  .banner-head {
-    font-family: "Rajdhani", sans-serif;
-  }
+.banner-header {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
