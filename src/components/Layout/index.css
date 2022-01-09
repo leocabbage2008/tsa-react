@@ -7,3 +7,44 @@
     padding-right: 8px;
   }
 }
+
+.children * {
+  color: var(--mustard);
+}
+
+#nav * {
+  color: var(--mustard);
+}
+
+footer * {
+  color: var(--mustard);
+}
+
+.inner-dropdown a:hover {
+  background-color: var(--grey);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.outline {
+  color: var(--mustard) !important;
+  text-shadow: 3px 3px 0 var(--black), -1px -1px 0 var(--black),
+    1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
+}
+
+.event-btn {
+  background-color: var(--light-red);
+  color: var(--mustard) !important;
+  transition: 0.3s all;
+}
+
+.event-btn:hover {
+  animation: none;
+  background-color: var(--red);
+}

@@ -11,7 +11,7 @@ export default function HomePage() {
       <Banner img={banner} text='Lantern Festival' />
       <div className='content mx-4 flex flex-col justify-center'>
         <Link
-          className='btn btn-danger mx-auto relative -top-16 py-3 px-5 text-xl animate-bounce duration-700'
+          className='btn btn-danger mx-auto relative -top-16 py-3 px-5 text-xl duration-700 event-btn'
           to='/events'
         >
           See Events Here
@@ -24,7 +24,7 @@ export default function HomePage() {
             From the comfort of your own home!
           </p>
           <p className='mx-14 mt-6 text-2xl'>
-            Due to the Covid-19 pandemic, we will not be hosting our anual
+            Due to the Covid-19 pandemic, we will not be hosting our annual
             celebrations in-person. Instead, we're having our completely free
             events online. Click the button above to learn more about our
             events, or click{' '}

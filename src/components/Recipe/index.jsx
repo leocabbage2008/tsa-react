@@ -12,16 +12,14 @@ export default function Recipe({ ingredients }) {
                 aria-describedby='comments-description'
                 name='comments'
                 type='checkbox'
-                className='h-4 w-4 border-gray-300'
+                className='h-4 w-4'
               />
             </div>
             <div className='ml-3 text-sm'>
-              <label htmlFor='comments' className='font-medium text-gray-700'>
+              <label htmlFor='comments' className='font-medium'>
                 {v.title}
               </label>
-              <p id='comments-description' className='text-gray-500'>
-                {v.message}
-              </p>
+              <p id='comments-description'>{v.message}</p>
             </div>
           </div>
         );

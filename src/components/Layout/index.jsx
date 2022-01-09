@@ -68,10 +68,9 @@ export default function Layout({ children }) {
                   <Menu
                     as='div'
                     className='relative inline-block text-left flex align-center'
-                    id='inner-dropdown'
                   >
                     <div>
-                      <Menu.Button className='flex justify-center w-full hover:bg-gray-50'>
+                      <Menu.Button className='flex justify-center w-full'>
                         Lantern Festival
                         <svg
                           xmlns='http://www.w3.org/2000/svg'
@@ -98,47 +97,32 @@ export default function Layout({ children }) {
                       leaveTo='transform opacity-0 scale-95'
                     >
                       <Menu.Items className='mt-7.5 origin-top-right absolute left-0 mt-4.5 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none'>
-                        <div className='py-1'>
+                        <div className='py-1 inner-dropdown'>
                           <Menu.Item>
-                            {({ active }) => (
+                            {() => (
                               <Link
                                 to='/festival/about'
-                                className={classNames(
-                                  active
-                                    ? 'bg-gray-100 text-gray-900'
-                                    : 'text-gray-700',
-                                  'block px-4 py-2 text-sm'
-                                )}
+                                className='block px-4 py-2 text-sm'
                               >
                                 About
                               </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
-                            {({ active }) => (
+                            {() => (
                               <Link
                                 to='/festival/recipes'
-                                className={classNames(
-                                  active
-                                    ? 'bg-gray-100 text-gray-900'
-                                    : 'text-gray-700',
-                                  'block px-4 py-2 text-sm'
-                                )}
+                                className='block px-4 py-2 text-sm'
                               >
                                 Recipes
                               </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
-                            {({ active }) => (
+                            {() => (
                               <Link
                                 to='/festival/traditions'
-                                className={classNames(
-                                  active
-                                    ? 'bg-gray-100 text-gray-900'
-                                    : 'text-gray-700',
-                                  'block px-4 py-2 text-sm'
-                                )}
+                                className='block px-4 py-2 text-sm'
                               >
                                 Traditions
                               </Link>
@@ -158,7 +142,7 @@ export default function Layout({ children }) {
       <footer className='z-10'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='z-10 flex justify-center space-x-6 md:order-2'>
-            <a href='/' className='text-gray-400 hover:text-gray-500'>
+            <a href='/'>
               <span className='sr-only'>Facebook</span>
               <svg
                 className='h-6 w-6'
@@ -174,7 +158,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='/' className='text-gray-400 hover:text-gray-500'>
+            <a href='/'>
               <span className='sr-only'>Instagram</span>
               <svg
                 className='h-6 w-6'
@@ -190,7 +174,7 @@ export default function Layout({ children }) {
               </svg>
             </a>
 
-            <a href='/' className='text-gray-400 hover:text-gray-500'>
+            <a href='/'>
               <span className='sr-only'>Twitter</span>
               <svg
                 className='h-6 w-6'
@@ -204,7 +188,6 @@ export default function Layout({ children }) {
 
             <a
               href='https://github.com/leocabbage2008/tsa-react'
-              className='text-gray-400 hover:text-gray-500'
               rel='noreferrer'
               target='_blank'
             >
@@ -224,7 +207,7 @@ export default function Layout({ children }) {
             </a>
           </div>
           <div className='mt-8 md:mt-0 md:order-1'>
-            <p className='text-center text-base text-gray-400'>
+            <p className='text-center text-base'>
               &copy; {currentYear} The Whale Like Sheep.
             </p>
           </div>
