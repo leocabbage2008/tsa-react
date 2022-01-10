@@ -4,7 +4,6 @@ import { Menu, Transition } from '@headlessui/react';
 import './index.css';
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../ScrollToTop';
-import { classNames } from '../../utils';
 import logo from '../../logo.png';
 
 export default function Layout({ children }) {
