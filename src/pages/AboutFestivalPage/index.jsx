@@ -39,6 +39,11 @@ export default function AboutFestivalPage() {
             event. In 104 BCE, he declared that it was on of the most important
             celebrations and the ceremony would last throughout the night.
           </p>
+          <hr />
+          
+          <p className='text-xl text-center'>
+            Now, people celebrate the Lantern Festival by lighting and watching lanterns, guessing lantern riddles, and eating TangYuan (or YuanXiao).
+          </p>
         </div>
       </div>
     </Layout>
