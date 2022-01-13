@@ -67,3 +67,7 @@ body {
     width: 0%;
   }
 }
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}

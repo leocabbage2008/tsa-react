@@ -27,7 +27,7 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className='fixed bottom-0 right-0 mb-3 mr-3 bg-transparent'>
+    <div className='fixed bottom-0 right-0 mb-3 mr-3 bg-transparent z-10'>
       <button
         type='button'
         onClick={scrollToTop}

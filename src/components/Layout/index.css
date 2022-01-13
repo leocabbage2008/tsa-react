@@ -1,6 +1,7 @@
 .mt-7\.5 {
   margin-top: 30px;
 }
+
 @media only screen and (min-width: 975px) {
   #dropdown {
     padding-left: 8px;
