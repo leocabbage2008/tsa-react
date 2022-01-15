@@ -1,5 +1,5 @@
 .vh {
-  height: 85vh;
+  height: 60vh;
 }
 
 @media only screen and (max-height: 600px) {
@@ -15,6 +15,6 @@
 }
 
 .banner-header {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   background-color: rgba(0, 0, 0, 0);
 }

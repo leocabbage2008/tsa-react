@@ -1,23 +1,23 @@
-import React from 'react';
-import Layout from '../../components/Layout';
-import './index.css';
-import Banner from '../../components/Banner';
-import banner from './banner.jpeg';
+import React from "react";
+import Layout from "../../components/Layout";
+import "./index.css";
+import Banner from "../../components/Banner";
+import banner from "./banner.jpeg";
 
 export default function AboutFestivalPage() {
   return (
-    <Layout className='about'>
-      <div className='p-2'>
-        <Banner img={banner} text='About Festival' />
-        <div className='content px-4'>
-          <p className='text-xl text-center'>
+    <Layout className="about">
+      <div className="p-2">
+        <Banner img={banner} text="About Festival" />
+        <div className="content px-4">
+          <p className="text-xl text-center">
             The Lantern Festival is a festival that's been celebrated for over
             2000 years.
           </p>
           <hr />
 
-          <p className='text-xl text-center'>
-            Starting in China as early as 206 BCE, peasants and royalty alike
+          <p className="text-xl text-center">
+            Starting in China as early as 206 BCE, peasants and royalties alike
             have been sending lanterns skywards for good luck. There are many
             saying as to how this tradition started, but the most common saying
             is that the Emperor Ming of the Han dynasty noticed that Buddhist
@@ -28,7 +28,7 @@ export default function AboutFestivalPage() {
           </p>
           <hr />
 
-          <p className='text-xl text-center'>
+          <p className="text-xl text-center">
             Another saying says that it was a time to worship Taiyi, the God of
             Heaven in ancient Chinese mythology. It was said that he controlled
             16 dragons and he decided when to bring famines and diseases upon
@@ -37,14 +37,14 @@ export default function AboutFestivalPage() {
             convince Taiyi to bring favorable weather and good fortunes. Emperor
             Wu of the Han dynasty delivered special attention towards this
             event. In 104 BCE, he declared that it was on of the most important
-            celebrations and the ceremony would last throughout the night.
+            celebrations, and the ceremony would last throughout the night.
           </p>
           <hr />
 
-          <p className='text-xl text-center'>
+          <p className="text-xl text-center">
             Now, people celebrate the Lantern Festival by lighting and watching
-            lanterns, guessing lantern riddles, and eating Tang Yuan (or Yuan
-            Xiao). In English this would translate to sweet rice balls.
+            lanterns, guessing lantern riddles, and eating Yuan Xiao, known as
+            Glutinous Rice Balls in English.
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap");
 
 :root {
   --gold: #ffd700;
@@ -8,7 +8,7 @@
   --corn: #ffbf00;
   --red: #c2240b;
   --light-red: #d22b2b;
-  --black: #151515;
+  --black: #202020;
   --grey: #3f3f3f;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 :not(.banner-head) {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 :focus {
@@ -49,7 +49,7 @@ body {
 }
 
 .link::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
