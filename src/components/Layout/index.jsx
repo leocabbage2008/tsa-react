@@ -1,7 +1,7 @@
+import './index.css';
 import React from 'react';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import './index.css';
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../ScrollToTop';
 import logo from '../../logo.png';
@@ -118,8 +118,8 @@ export default function Layout({ children }) {
                       leaveFrom='transform opacity-100 scale-100'
                       leaveTo='transform opacity-0 scale-95'
                     >
-                      <Menu.Items className='mt-7.5 origin-top-right absolute left-0 mt-4.5 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none'>
-                        <div className='py-1 inner-dropdown'>
+                      <Menu.Items className='mt-7.5 absolute left-0 mt-4.5 w-56 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
+                        <div className='rounded-lg inner-dropdown'>
                           <Menu.Item>
                             {() => (
                               <Link

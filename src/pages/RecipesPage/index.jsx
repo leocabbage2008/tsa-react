@@ -12,6 +12,10 @@ export default function RecipesPage() {
   return (
     <Layout>
       <div className='content px-4'>
+        <h1>
+          Today we're going to be learning how to make the traditional Yuan
+          Xiao.
+        </h1>
         <h1>Ingredients:</h1>
         <Recipe ingredients={ingredients} />
       </div>

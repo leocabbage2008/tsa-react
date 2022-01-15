@@ -43,8 +43,8 @@ export default function AboutFestivalPage() {
 
           <p className='text-xl text-center'>
             Now, people celebrate the Lantern Festival by lighting and watching
-            lanterns, guessing lantern riddles, and eating TangYuan (or
-            YuanXiao).
+            lanterns, guessing lantern riddles, and eating Tang Yuan (or Yuan
+            Xiao). In English this would translate to sweet rice balls.
           </p>
         </div>
       </div>
