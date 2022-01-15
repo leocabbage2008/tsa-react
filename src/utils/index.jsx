@@ -3,7 +3,7 @@ export const classNames = (...classes) => {
 };
 
 const services = {
-  classNames
-}
+  classNames,
+};
 
 export default services;
