@@ -13,7 +13,7 @@ export default function AboutUsPage() {
           We are Pennsylvania Region 8 TSA's Website Design Team 1023-901, with
           members 1023-013, 1023-011 and 1023-033. We chose the Lantern Festival
           as our theme because it aims to promote reconciliation, peace, and
-          forgiveness.
+          forgiveness. Our families are also chinease so we wanted to pick something that is part of our families' culture.
         </p>
         <hr />
         <p className="text-center text-2xl">Sources</p>
