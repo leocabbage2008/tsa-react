@@ -12,9 +12,9 @@ export default function RecipesPage() {
   return (
     <Layout>
       <div className='content px-4'>
-        <h1>
+        <h1 className='pb-20'>
           Today we're going to be learning how to make the traditional Yuan
-          Xiao.
+          Xiao. Yuan Xiao are traditional Lantern Festival dish usually eaten in the morning, they are a delicious rice ball filled with sweet stuffing. 
         </h1>
         <h1>Ingredients:</h1>
         <Recipe ingredients={ingredients} />
