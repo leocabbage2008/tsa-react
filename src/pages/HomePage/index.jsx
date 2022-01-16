@@ -4,6 +4,7 @@ import './index.css';
 import banner from './banner.jpg';
 import Banner from '../../components/Banner';
 import { Link } from 'react-router-dom';
+import Card from '../../components/Card';
 
 export default function HomePage() {
   return (
@@ -32,6 +33,11 @@ export default function HomePage() {
               here
             </Link>{' '}
           </p>
+          <Card
+            src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cowgirl_Creamery_Point_Reyes_-_Red_Hawk_cheese.jpg/220px-Cowgirl_Creamery_Point_Reyes_-_Red_Hawk_cheese.jpg'
+            title='bruh'
+            text='bruh'
+          />
         </div>
       </div>
     </Layout>

@@ -1,0 +1,27 @@
+.card {
+  width: 18rem;
+  border: none;
+}
+
+.accordion,
+.accordion * {
+  border: none !important;
+  background-color: var(--grey) !important;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button {
+  color: var(--mustard) !important;
+}
+
+.accordion-button::after {
+  filter: invert(63%) sepia(73%) saturate(592%) hue-rotate(358deg)
+    brightness(100%) contrast(106%);
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0) saturate(100%) invert(63%) sepia(73%) saturate(592%)
+    hue-rotate(358deg) brightness(100%) contrast(106%);
+}
