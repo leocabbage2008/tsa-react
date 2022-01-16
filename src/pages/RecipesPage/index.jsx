@@ -9,7 +9,7 @@ export default function RecipesPage() {
   const ingredients = [
     { title: "e", message: "e" },
     { title: "ew", message: "ur ew" },
-    { title: "cheese", message: "obama care" },
+    { title: "cheese" },
   ];
   return (
     <Layout>
@@ -19,7 +19,7 @@ export default function RecipesPage() {
           Today we're going to be learning how to make the Chinese dish, Yuan
           Xiao. Yuan Xiao is a traditional Lantern Festival dish usually eaten
           as a breakfast meal. They are a delicious rice ball usually filled
-          with sweet stuffing.
+          with a sweet sesame stuffing.
         </h1>
         <h1>Ingredients:</h1>
         <Recipe ingredients={ingredients} />
