@@ -11,8 +11,8 @@ export default function AboutFestivalPage() {
         <Banner img={banner} text="About Festival" />
         <div className="content px-4">
           <p className="text-xl text-center">
-            The Lantern Festival is a festival that's been celebrated for over
-            2000 years.
+            Celebrated on the 15th day of the first month, the Lantern Festival
+            has been an important part of Asian culture for thousands of years.
           </p>
           <hr />
 
