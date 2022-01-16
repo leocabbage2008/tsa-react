@@ -1,12 +1,13 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import "./index.css";
-// import Banner from '../../components/Banner';
+import Banner from "../../components/Banner";
+import banner from "./banner.jpg";
 
 export default function EventsPage() {
   return (
     <Layout>
-      {/* <Banner img={banner} text='Lantern Festival' /> */}
+      <Banner img={banner} text="Events" />
       <div className="content mx-4 flex flex-col justify-center">
         <div className="body relative -top-1">
           <p className="text-center mx-72 text-3xl">
@@ -22,39 +23,7 @@ export default function EventsPage() {
             events, or click to learn more about the Chinese Lantern Festival.
           </p>
         </div>
-        <div className="accordion accordion-flush" id="accordionFlushExample">
-          <div className="accordion-item border-t-0 border-l-0 border-r-0 rounded-none">
-            <h2 className="accordion-header mb-0" id="flush-headingOne">
-              <button
-                className="accordion-button
-      relative
-      flex
-      items-center
-      w-full
-      py-4
-      px-5
-      text-base text-gray-800 text-left
-      transition
-      focus:outline-none"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
-                Accordion Item #1
-              </button>
-            </h2>
-            <div
-              id="flush-collapseOne"
-              className="accordion-collapse border-0 collapse show"
-              aria-labelledby="flush-headingOne"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div className="accordion-body py-4 px-5">test</div>
-            </div>
-          </div>
-        </div>
+        {/* I think a card might work better than a accordion */}
       </div>
     </Layout>
   );
