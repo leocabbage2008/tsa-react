@@ -1,6 +1,8 @@
 import React from 'react';
 import Cite from '../../components/Cite';
 import Layout from '../../components/Layout';
+import Banner from '../../components/Banner';
+import banner from './banner.jpeg';
 
 export default function SourcesPage() {
   const sources = [
@@ -14,10 +16,10 @@ export default function SourcesPage() {
       from: 'Wikimedia Commons',
     },
     {
-      title: 'About us Page Banner Source',
+      title: 'About Us Page Banner Source',
       citeSource:
         'https://commons.wikimedia.org/wiki/File:Celebration_Chinese_Lantern_Festival.jpg',
-      author: 'tookapic',
+      author: 'Tookapic',
       licenseLink:
         'https://creativecommons.org/share-your-work/public-domain/cc0/',
       licenseName: 'CC0',
@@ -49,9 +51,20 @@ export default function SourcesPage() {
       licenseName: 'CC BY-SA 4.0',
       from: 'Wikimedia Commons',
     },
+    {
+      title: 'Sources Page Banner Source',
+      citeSource:
+        'https://commons.wikimedia.org/wiki/File:Chinese-lanterns-1394958.jpg',
+      author: 'Wiroj',
+      licenseLink:
+        'https://creativecommons.org/share-your-work/public-domain/cc0/',
+      licenseName: 'CC0',
+      from: 'Wikimedia Commons',
+    },
   ];
   return (
     <Layout>
+      <Banner img={banner} text='Sources' />
       <div className='content mx-4 flex flex-col justify-center'>
         <Cite sources={sources} />
       </div>
