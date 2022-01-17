@@ -14,10 +14,16 @@
 
 body {
   background-color: var(--black);
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 * {
   background-color: var(--black);
+}
+
+img {
+  pointer-events: none;
 }
 
 hr {
@@ -28,16 +34,11 @@ hr {
   padding-bottom: 2px;
 }
 
-body {
-  height: 100vh;
-  overflow-x: hidden;
-}
-
 :not(.banner-head) {
   font-family: 'Nunito', sans-serif;
 }
 
-:focus {
+*:focus {
   outline: none;
 }
 
@@ -70,8 +71,4 @@ body {
     left: auto;
     width: 0%;
   }
-}
-
-.bg-transparent {
-  background-color: rgba(0, 0, 0, 0);
 }
