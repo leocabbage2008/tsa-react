@@ -11,7 +11,7 @@ export default function Card({ src, title, text, className = '', i }) {
         className && className
       )}
     >
-      <img src={src} className='card-img-top' alt='card image' />
+      <img src={src} className='card-img-top' alt='card banner' />
       <div>
         <div className='accordion' id={`acc-controller${index}`}>
           <h2 className='accordion-header' id={`acc-header${index}`}>
