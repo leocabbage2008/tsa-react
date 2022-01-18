@@ -1,15 +1,24 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Recipe from '../../components/Recipe';
-import './index.css';
+import Directions from '../../components/Directions';
 import Banner from '../../components/Banner';
 import banner from './banner.jpg';
 
 export default function RecipesPage() {
   const ingredients = [
-    { title: 'e', message: 'e' },
-    { title: 'ew', message: 'ur ew' },
-    { title: 'cheese', message: 'obama care' },
+    { ingredient: '2 oz. roasted black sesame seeds' },
+    { ingredient: '3 oz. caster sugar' },
+    { ingredient: '6 tablespoons butte' },
+    { ingredient: '1 cup sweet rice flour' },
+    { ingredient: '1/2 cup warm water' },
+  ];
+  const directions = [
+    { direction: 'bruh' },
+    { direction: 'bruh' },
+    { direction: 'bruh' },
+    { direction: 'bruh' },
+    { direction: 'bruh' },
   ];
   return (
     <Layout>
@@ -23,6 +32,7 @@ export default function RecipesPage() {
         </h1>
         <h1>Ingredients:</h1>
         <Recipe ingredients={ingredients} />
+        <Directions directions={directions} />
       </div>
     </Layout>
   );

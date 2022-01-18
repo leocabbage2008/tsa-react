@@ -1,0 +1,21 @@
+.directions {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.directions li {
+  counter-increment: step-counter;
+  margin-bottom: 5px;
+}
+.directions li::before {
+  content: counter(step-counter);
+  margin-right: 20px;
+  font-size: 80%;
+  background-color: var(--mustard);
+  color: var(--red);
+  padding: 3px 8px;
+  border-radius: 11px;
+}
+.directions :last-child {
+  margin: 0px;
+}

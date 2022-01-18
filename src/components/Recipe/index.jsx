@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 
 export default function Recipe({ ingredients }) {
   return (
@@ -17,9 +18,8 @@ export default function Recipe({ ingredients }) {
             </div>
             <div className='ml-3 text-sm'>
               <label htmlFor='comments' className='font-medium'>
-                {v.title}
+                {v.ingredient}
               </label>
-              <p id='comments-description'>{v.message}</p>
             </div>
           </div>
         );
