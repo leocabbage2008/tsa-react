@@ -1,6 +1,31 @@
 .ingredients :first-child {
+  margin-top: 5px;
+}
+
+.ingredients {
   margin-top: 7px;
 }
+
 .ingredients :last-child {
-  margin-top: 7px;
+  margin-top: 2px;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.checkbox > input {
+  appearance: none;
+  transition-duration: 0.3s;
+  background-color: var(--mustard);
+  cursor: pointer;
+}
+
+.checkbox > input:checked + span::before {
+  content: '\2713';
+  display: block;
+  color: var(--red);
+  position: absolute;
+  left: 0.1rem;
+  top: 0.1rem;
 }

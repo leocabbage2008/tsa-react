@@ -3,10 +3,16 @@ import './index.css';
 
 export default function Directions({ directions }) {
   return (
-    <ol className='directions list-decimal'>
-      {directions.map((v, i) => (
-        <li key={i}>{v.direction}</li>
-      ))}
-    </ol>
+    <div className='mt-10'>
+      <h1>Directions:</h1>
+      <ol className='ml-3 space-y-5 directions'>
+        {directions.map((v, i) => (
+          <li className='flex' key={i}>
+            <div className='num-circle'>{i + 1}</div>
+            <span className='direction'>{v.direction}</span>
+          </li>
+        ))}
+      </ol>
+    </div>
   );
 }
