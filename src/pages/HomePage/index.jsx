@@ -11,7 +11,7 @@ export default function HomePage() {
       <Banner img={banner} text='Lantern Festival' />
       <div className='content mx-4 flex flex-col justify-center'>
         <Link
-          className='btn btn-danger mx-auto relative -top-16 py-2.5 px-3 text-lg duration-700 event-btn'
+          className='btn btn-danger mx-auto relative -top-16 py-2.5 px-2.5 sm:px-4 text-lg duration-700 event-btn'
           to='/events'
         >
           See Events Here
