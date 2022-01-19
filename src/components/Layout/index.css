@@ -1,5 +1,15 @@
+.offcanvas {
+  width: 45vw;
+}
+
 .mt-7\.5 {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 540px) {
+  .offcanvas {
+    width: 60vw;
+  }
 }
 
 @media only screen and (min-width: 975px) {
