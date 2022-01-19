@@ -2,7 +2,6 @@ import './index.css';
 import React from 'react';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import { Link } from 'react-router-dom';
 import ScrollToTop from '../ScrollToTop';
 import logo from '../../logo.png';
 
@@ -13,12 +12,12 @@ export default function Layout({ children }) {
       <nav className='navbar navbar-expand-lg navbar-dark py-3' id='nav'>
         <div className='container-fluid navbar'>
           <div className='flex'>
-            <Link to='/' className='mx-2'>
+            <a href='/' className='mx-2'>
               <img src={logo} className='h-10 w-10' alt='logo' />
-            </Link>
-            <Link to='/' className='my-auto mx-2'>
+            </a>
+            <a href='/' className='my-auto mx-2'>
               <span>Lantern Festival</span>
-            </Link>
+            </a>
           </div>
           <button
             className='navbar-toggler border-none'
@@ -127,12 +126,12 @@ export default function Layout({ children }) {
                         <div className='rounded-lg inner-dropdown'>
                           <Menu.Item>
                             {() => (
-                              <Link
-                                to='/festival/about'
+                              <a
+                                href='/festival/about'
                                 className='block px-4 py-2 text-sm'
                               >
                                 About
-                              </Link>
+                              </a>
                             )}
                           </Menu.Item>
                           <Menu.Item>
@@ -147,12 +146,12 @@ export default function Layout({ children }) {
                           </Menu.Item>
                           <Menu.Item>
                             {() => (
-                              <Link
-                                to='/events'
+                              <a
+                                href='/events'
                                 className='block px-4 py-2 text-sm'
                               >
                                 Events
-                              </Link>
+                              </a>
                             )}
                           </Menu.Item>
                         </div>

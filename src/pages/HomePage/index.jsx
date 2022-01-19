@@ -4,7 +4,6 @@ import './index.css';
 import banner from './banner.jpg';
 import Banner from '../../components/Banner';
 import { Link } from 'react-router-dom';
-import Card from '../../components/Card';
 
 export default function HomePage() {
   return (
@@ -24,7 +23,7 @@ export default function HomePage() {
           <p className='text-center mt-6 text-2xl'>
             From the comfort of your own home!
           </p>
-          <p className='mx-14 mt-6 text-2xl'>
+          <p className='sm:mx-14 mt-6 text-2xl'>
             Due to the Covid-19 pandemic, we will not be hosting our annual
             celebrations in-person. Instead, we're going to be hosting our
             events online. Click the button above to learn more about our
