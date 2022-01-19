@@ -4,17 +4,18 @@ export default function Cite({ sources }) {
   return (
     <>
       {sources.map((v, i) => (
-        <p className='text-center text-xl mt-1' key={i}>
-          {v.title}:{' '}
+        <div className='text-center text-xl mt-1' key={i}>
           <a className='link' href={v.citeSource}>
-            {v.author}
+            {v.title}
           </a>
-          ,{' '}
+          {': '}
+          <span>{v.author}</span>
+          {v.licenseLink && ', '}
           <a className='link' href={v.licenseLink}>
             {v.licenseName}
           </a>
-          , via {v.from}
-        </p>
+          , <span>via {v.from}</span>
+        </div>
       ))}
     </>
   );

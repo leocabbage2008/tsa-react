@@ -61,6 +61,14 @@ export default function SourcesPage() {
       licenseName: 'CC0',
       from: 'Wikimedia Commons',
     },
+    {
+      title: 'Recipes Source',
+      citeSource: 'https://thewoksoflife.com/tang-yuan-recipe/',
+      author: 'JUDY',
+      licenseLink: '',
+      licenseName: '',
+      from: 'The Woks Of Life',
+    },
   ];
   return (
     <Layout>
