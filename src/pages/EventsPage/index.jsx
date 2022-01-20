@@ -7,7 +7,7 @@ import Grid from '../../components/Grid';
 
 export default function EventsPage() {
   const cards = [
-    { src: 'https://picsum.photos/200/300', title: 'title', text: 'text' },
+    { src: 'https://picsum.photos/200/300', title: 'Tang Yuan', text: 'I know we have talked about this dish more than once already but that is because it is truly a delicious dish that is one of the most delicious breakfast foods ever.' },
     { src: 'https://picsum.photos/200/300', title: 'title', text: 'text' },
     { src: 'https://picsum.photos/200/300', title: 'title', text: 'text' },
     { src: 'https://picsum.photos/200/300', title: 'title', text: 'text' },
