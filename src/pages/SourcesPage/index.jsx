@@ -69,6 +69,24 @@ export default function SourcesPage() {
       licenseName: '',
       from: 'The Woks Of Life',
     },
+    {
+      title: 'Logo Source',
+      citeSource:
+        'https://flyclipart.com/download-chinese-new-year-lantern-png-clipart-paper-lantern-lantern-clipart-915671',
+      author: 'FlyClipart',
+      licenseLink: 'https://creativecommons.org/licenses/by-nc/4.0/',
+      licenseName: 'CC BY-NC 4.0',
+      from: 'FlyClipart(edited using GIMP)',
+    },
+    {
+      title: 'Font Source',
+      citeSource: 'https://fonts.google.com/specimen/Nunito',
+      author: 'Vernon Adams, Cyreal, Jacques Le Bailly',
+      licenseLink:
+        'https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL',
+      licenseName: 'SIL Open Font License',
+      from: 'Google Fonts',
+    },
   ];
   return (
     <Layout>

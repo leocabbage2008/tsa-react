@@ -15,6 +15,15 @@ export default function AboutUsPage() {
           as our theme because it aims to promote reconciliation, peace, and
           forgiveness.
         </p>
+        <hr />
+        <p className='text-center text-xl mt-1'>
+          We used React, Bootstrap, Tailwindcss, HeadlessUI and Tailwind
+          components. For the fonts we used Google Fonts. Fore more detailed
+          citations check{' '}
+          <a className='link' href='/sources'>
+            here.
+          </a>
+        </p>
       </div>
     </Layout>
   );
