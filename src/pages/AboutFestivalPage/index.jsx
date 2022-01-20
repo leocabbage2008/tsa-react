@@ -46,7 +46,7 @@ export default function AboutFestivalPage() {
             lanterns, guessing lantern riddles, and eating Yuan Xiao, known as
             Glutinous Rice Balls in English. They are traditionally filled with
             sesame seeds and you can learn to make them{' '}
-            <a className='link' href='/festival/recipe'>
+            <a className='link' href='/festival/recipes'>
               here.
             </a>
           </p>
