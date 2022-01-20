@@ -11,8 +11,9 @@ export default function AboutFestivalPage() {
         <Banner img={banner} text='About Festival' />
         <div className='content px-4'>
           <p className='text-xl'>
-            Celebrated on the 15th day of the 15 days of Chinese New Year celebrations, the Lantern Festival
-            has been an important part of Asian culture for thousands of years.
+            The Lantern Festival has been an important part of Asian culture for
+            thousands of years. Traditionally it has been celebrated on the 15th
+            day of the Chinese New Year celebrations, which also last 15 days.
           </p>
           <hr />
 
