@@ -25,7 +25,7 @@ export default function HomePage() {
           <p className='sm:mx-14 mt-6 text-2xl'>
             Due to the Covid-19 pandemic, we will not be hosting our annual
             celebrations in-person. Instead, we're going to be hosting our
-            events online. Click the button above to learn more about our
+            events online. Join us on Febuary 15th 2022. Click the button above to learn more about our
             events. You can learn more about the Chinese Lantern Festival{' '}
             <a href='/festival/about' className='link'>
               here.
