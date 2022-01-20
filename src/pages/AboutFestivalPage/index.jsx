@@ -11,7 +11,7 @@ export default function AboutFestivalPage() {
         <Banner img={banner} text='About Festival' />
         <div className='content px-4'>
           <p className='text-xl'>
-            Celebrated on the 15th day of the first month, or the 15th day of the 15 day Chinese New Year celebrations, the Lantern Festival
+            Celebrated on the 15th day of the first month, or the 15th day of the 15 days Chinese New Year celebrations, the Lantern Festival
             has been an important part of Asian culture for thousands of years.
           </p>
           <hr />
