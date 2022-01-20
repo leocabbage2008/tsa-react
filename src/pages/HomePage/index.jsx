@@ -3,19 +3,18 @@ import Layout from '../../components/Layout';
 import './index.css';
 import banner from './banner.jpg';
 import Banner from '../../components/Banner';
-import { Link } from 'react-router-dom';
 
 export default function HomePage() {
   return (
     <Layout>
       <Banner img={banner} text='Lantern Festival' />
       <div className='content mx-4 flex flex-col justify-center'>
-        <Link
+        <a
           className='btn btn-danger mx-auto relative -top-16 py-2.5 px-2.5 sm:px-4 text-lg duration-700 event-btn'
-          to='/events'
+          href='/events'
         >
           See Events Here
-        </Link>
+        </a>
         <div className='body relative -top-3'>
           <p className='text-center text-3xl'>
             The Magical Chinese Lantern Festival...
@@ -28,9 +27,9 @@ export default function HomePage() {
             celebrations in-person. Instead, we're going to be hosting our
             events online. Click the button above to learn more about our
             events. You can learn more about the Chinese Lantern Festival{' '}
-            <Link to='/festival/about' className='link'>
-              here
-            </Link>{' '}
+            <a href='/festival/about' className='link'>
+              here.
+            </a>{' '}
           </p>
         </div>
       </div>
