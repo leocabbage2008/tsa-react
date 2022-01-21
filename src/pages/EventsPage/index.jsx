@@ -42,11 +42,8 @@ export default function EventsPage() {
           <p className="text-center text-3xl">
             Ways to celebrate Lantern Festival
           </p>
-          <p className="text-center mt-6 text-2xl">
-            From the comfort of your own home!
-          </p>
           <p className="mx-14 mt-6 text-2xl">
-            Here are 12 events that you can do throughout the day to celebrate
+            Here are 5 events that you can do throughout the day to celebrate
             this important day in Chinese culture. We recommend you do as many
             of them as possible, and have a great time.
           </p>
