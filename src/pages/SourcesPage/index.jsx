@@ -87,6 +87,45 @@ export default function SourcesPage() {
       licenseName: "SIL Open Font License",
       from: "Google Fonts",
     },
+    {
+      title: "Tangyuan Event Image Source",
+      citeSource:
+        "https://thewoksoflife.com/wp-content/uploads/2016/01/tang-yuan-3.jpg",
+      author: "Jleung",
+      licenseLink: "",
+      licenseName: "",
+      from: "The Woks of Life",
+    },
+    {
+      title: "Riddle Event Image Source",
+      citeSource:
+        "https://commons.wikimedia.org/wiki/File:Chinese-lanterns-1394958.jpg",
+      author: "Wiroj",
+      licenseLink:
+        "https://creativecommons.org/share-your-work/public-domain/cc0/",
+      licenseName: "CC0",
+      from: "Wikimedia Commons (edited using Gimp)",
+    },
+    {
+      title: "Lantern Event Image Source",
+      citeSource:
+        "https://commons.wikimedia.org/wiki/File:Celebration_Chinese_Lantern_Festival.jpg",
+      author: "Tookapic",
+      licenseLink:
+        "https://creativecommons.org/share-your-work/public-domain/cc0/",
+      licenseName: "CC0",
+      from: "Wikimedia Commons (edited using Gimp)",
+    },
+    {
+      title: "Poem Event Image Source",
+      citeSource:
+        "https://commons.wikimedia.org/wiki/File:Chen_Hongshou_-_Paintings_after_Ancient_Masters-_Calligraphy_-_1979.27.2.22_-_Cleveland_Museum_of_Art.jpg",
+      author: "Chen Hongshou",
+      licenseLink:
+        "https://creativecommons.org/share-your-work/public-domain/cc0/",
+      licenseName: "CC0",
+      from: "Wikimedia Commons (edited using Gimp)",
+    },
   ];
   return (
     <Layout>
