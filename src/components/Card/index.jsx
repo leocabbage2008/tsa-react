@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import { classNames } from '../../utils';
 
-export default function Card({ src, title, text, className = '', i }) {
+export default function Card({ src, title, time, text, className = '', i }) {
   const index = i ? `-${i}` : '';
   return (
     <div
@@ -11,7 +11,7 @@ export default function Card({ src, title, text, className = '', i }) {
         className && className
       )}
     >
-      <img src={src} className='card-img-top' alt='card banner' />
+      <img src={src} className='card-img card-img-top' alt='card banner' />
       <div>
         <div className='accordion' id={`acc-controller${index}`}>
           <h2 className='accordion-header' id={`acc-header${index}`}>
@@ -23,7 +23,10 @@ export default function Card({ src, title, text, className = '', i }) {
               aria-expanded='true'
               aria-controls={`acc-toggle${index}`}
             >
-              {title}
+              <div className='flex flex-col'>
+                <span>{title}</span>
+                <span className='text-xs'>{time}</span>
+              </div>
             </button>
           </h2>
           <div

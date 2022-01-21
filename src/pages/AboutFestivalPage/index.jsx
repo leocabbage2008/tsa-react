@@ -11,8 +11,7 @@ export default function AboutFestivalPage() {
         <Banner img={banner} text='About Festival' />
         <div className='content px-4'>
           <p className='text-xl'>
-            Celebrated on the 15th day of the first month, the Lantern Festival
-            has been an important part of Asian culture for thousands of years.
+            The Lanter Festival has been celebrated for 2000 years on the last day of the 15 days of Chinese New Year celebrations, the official date is January 15th on the lunar calendar.
           </p>
           <hr />
 
@@ -44,7 +43,11 @@ export default function AboutFestivalPage() {
           <p className='text-xl'>
             Now, people celebrate the Lantern Festival by lighting and watching
             lanterns, guessing lantern riddles, and eating Yuan Xiao, known as
-            Glutinous Rice Balls in English.
+            Glutinous Rice Balls in English. They are traditionally filled with
+            sesame seeds and you can learn to make them{' '}
+            <a className='link' href='/festival/recipes'>
+              here.
+            </a>
           </p>
         </div>
       </div>

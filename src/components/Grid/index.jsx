@@ -9,6 +9,7 @@ export default function Grid({ cards }) {
           <Card
             src={v.src}
             title={v.title}
+            time={v.time}
             text={v.text}
             className='my-1 px-0 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3'
             key={i}

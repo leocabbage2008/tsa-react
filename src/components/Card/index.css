@@ -25,3 +25,8 @@
   filter: brightness(0) saturate(100%) invert(63%) sepia(73%) saturate(592%)
     hue-rotate(358deg) brightness(100%) contrast(106%);
 }
+
+.card-img {
+  max-height: 350px;
+  vertical-align: middle;
+}
