@@ -1,18 +1,18 @@
-import React from 'react';
-import './index.css';
+import React from "react";
+import "./index.css";
 
 function Banner({ img, text }) {
   return (
-    <div className='p-2 relative h-auto pt-0'>
+    <div className="p-2 relative h-auto pt-0">
       <img
-        className='filter object-cover blur-sm vh w-full text-center'
+        className="filter object-cover vh w-full text-center brightness-75"
         src={img}
-        alt='banner'
+        alt="banner"
       />
-      <p className='text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white font-semibold centered outline banner-header'>
+      <p className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white font-semibold centered outline banner-header">
         {text}
       </p>
-      <hr className='relative -top-2.5' />
+      <hr className="relative -top-2.5" />
     </div>
   );
 }
