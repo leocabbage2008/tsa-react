@@ -214,7 +214,7 @@ export default function Layout({ children }) {
 
             <a
               href='https://github.com/leocabbage2008/tsa-react'
-              rel='noreferrer'
+              rel='noopener noreferrer'
               target='_blank'
             >
               <span className='sr-only'>GitHub</span>

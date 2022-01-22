@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { classNames } from '../../utils';
 import './index.css';
+import React from 'react';
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);

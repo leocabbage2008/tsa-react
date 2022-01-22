@@ -13,6 +13,7 @@ import EventsPage from './pages/EventsPage';
 import SourcesPage from './pages/SourcesPage';
 import ErrorPage from './pages/ErrorPage';
 import Layout from './components/Layout';
+import React from 'react';
 
 function App() {
   return (
