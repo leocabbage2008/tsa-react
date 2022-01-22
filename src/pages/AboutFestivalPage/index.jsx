@@ -11,7 +11,9 @@ export default function AboutFestivalPage() {
         <Banner img={banner} text='About Festival' />
         <div className='content px-4'>
           <p className='text-xl'>
-            The Lanter Festival has been celebrated for 2000 years on the last day of the 15 days of Chinese New Year celebrations, the official date is January 15th on the lunar calendar.
+            The Lantern Festival has been celebrated for 2000 years on the last
+            day of the 15 days of Chinese New Year celebrations, the official
+            date is January 15th on the lunar calendar.
           </p>
           <hr />
 
