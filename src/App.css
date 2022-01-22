@@ -20,6 +20,7 @@ body {
 
 * {
   background-color: var(--black);
+  font-family: 'Nunito', sans-serif;
 }
 
 img {
@@ -32,10 +33,6 @@ hr {
   background-color: red;
   border-top-width: 2px;
   padding-bottom: 2px;
-}
-
-:not(.banner-head) {
-  font-family: 'Nunito', sans-serif;
 }
 
 *:focus {

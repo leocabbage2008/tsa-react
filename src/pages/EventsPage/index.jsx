@@ -55,9 +55,13 @@ export default function EventsPage() {
         </div>
         <div className='container my-12 mx-auto md:px-12'>
           <div className='flex flex-wrap -mx-1 lg:-mx-4 justify-center'>
-            <Card src={tangyuan} title='Tangyuan Making' time='10:00AM-12:00PM'>
+            <Card
+              src={tangyuan}
+              title='Tang Yuan Making'
+              time='10:00AM-12:00PM'
+            >
               During this 2 hour lesson, you will learn how to make the
-              traditional Tangyuan with world-renowned chef, Gordon Ramsay. We
+              traditional Tang Yuan with world-renowned chef, Gordon Ramsay. We
               will be using <a className='link'>this</a> recipe.
             </Card>
             <Grid cards={cards} />

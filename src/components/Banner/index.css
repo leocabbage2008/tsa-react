@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 .vh {
   height: 60vh;
 }
@@ -15,6 +17,6 @@
 }
 
 .banner-header {
-  font-family: "Rajdhani", sans-serif;
+  font-family: 'Merriweather', serif;
   background-color: rgba(0, 0, 0, 0);
 }
