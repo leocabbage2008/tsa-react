@@ -5,10 +5,11 @@ import Banner from '../../components/Banner';
 import banner from './banner.jpg';
 import Grid from '../../components/Grid';
 // event images
-import tangyuan from './cardImages/TangYuan.jpg';
-import riddle from './cardImages/Riddle.jpeg';
-import lantern from './cardImages/Lantern.jpg';
-import poems from './cardImages/Poems.jpg';
+import tangyuan from "./Events Images/Tangyuan.jpg";
+import riddle from "./Events Images/Riddle.jpeg";
+import lantern from "./Events Images/Lantern.jpg";
+import poems from "./Events Images/Poems.jpg";
+import festival from "./Events Images/FestivalShow.jpg";
 import Card from '../../components/Card';
 
 export default function EventsPage() {
@@ -32,9 +33,9 @@ export default function EventsPage() {
       text: 'Learn about beautiful Asian poems with a famous Chinese poet, Da Niu. These are very ancient and famous poems, and are often taught as part of the school curriculum.',
     },
     {
-      src: 'https://picsum.photos/200/300' /* placeholder */,
-      title: 'Lantern Festival Show',
-      time: '7:00PM-10:00PM',
+      src: festival,
+      title: "Lantern Festival Show",
+      time: "7:00PM-10:00PM",
       text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's very energetic.",
     },
   ];
