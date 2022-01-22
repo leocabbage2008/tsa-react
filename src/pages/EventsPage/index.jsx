@@ -63,7 +63,11 @@ export default function EventsPage() {
             >
               During this 2 hour lesson, you will learn how to make the
               traditional Tang Yuan with world-renowned chef, Gordon Ramsay. We
-              will be using <a className='link'>this</a> recipe.
+              will be using{' '}
+              <a className='link' href='/festival/recipes'>
+                this
+              </a>{' '}
+              recipe.
             </Card>
             <Grid cards={cards} />
           </div>
