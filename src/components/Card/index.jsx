@@ -2,8 +2,15 @@ import React from 'react';
 import './index.css';
 import { classNames } from '../../utils';
 
-export default function Card({ src, title, time, text, className = '', i }) {
-  const index = i ? `-${i}` : '';
+export default function Card({
+  src,
+  title,
+  time,
+  text,
+  className = '',
+  children,
+}) {
+  const id = Math.random().toFixed(3) * 1000;
   return (
     <div
       className={classNames(
@@ -13,15 +20,15 @@ export default function Card({ src, title, time, text, className = '', i }) {
     >
       <img src={src} className='card-img card-img-top' alt='card banner' />
       <div>
-        <div className='accordion' id={`acc-controller${index}`}>
-          <h2 className='accordion-header' id={`acc-header${index}`}>
+        <div className='accordion' id={`acc-controller${id}`}>
+          <h2 className='accordion-header' id={`acc-header${id}`}>
             <button
               className='accordion-button collapsed'
               type='button'
               data-bs-toggle='collapse'
-              data-bs-target={`#acc-toggle${index}`}
+              data-bs-target={`#acc-toggle${id}`}
               aria-expanded='true'
-              aria-controls={`acc-toggle${index}`}
+              aria-controls={`acc-toggle${id}`}
             >
               <div className='flex flex-col'>
                 <span>{title}</span>
@@ -30,12 +37,12 @@ export default function Card({ src, title, time, text, className = '', i }) {
             </button>
           </h2>
           <div
-            id={`acc-toggle${index}`}
+            id={`acc-toggle${id}`}
             className='accordion-collapse collapse'
-            aria-labelledby={`acc-header${index}`}
-            data-bs-parent={`#acc-controller${index}`}
+            aria-labelledby={`acc-header${id}`}
+            data-bs-parent={`#acc-controller${id}`}
           >
-            <div className='accordion-body'>{text}</div>
+            <div className='accordion-body'>{text || children}</div>
           </div>
         </div>
       </div>

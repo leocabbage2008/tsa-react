@@ -1,65 +1,68 @@
-import React from "react";
-import Layout from "../../components/Layout";
-import "./index.css";
-import Banner from "../../components/Banner";
-import banner from "./banner.jpg";
-import Grid from "../../components/Grid";
+import React from 'react';
+import Layout from '../../components/Layout';
+import './index.css';
+import Banner from '../../components/Banner';
+import banner from './banner.jpg';
+import Grid from '../../components/Grid';
 // event images
-import tangyuan from "./Events Images/Tangyuan.jpg";
-import riddle from "./Events Images/Riddle.jpeg";
-import lantern from "./Events Images/Lantern.jpg";
-import poems from "./Events Images/Poems.jpg";
+import tangyuan from './cardImages/TangYuan.jpg';
+import riddle from './cardImages/Riddle.jpeg';
+import lantern from './cardImages/Lantern.jpg';
+import poems from './cardImages/Poems.jpg';
+import Card from '../../components/Card';
 
 export default function EventsPage() {
   const cards = [
-    //  tangyuan, riddles, lantern making, poems, celebrations
-    {
-      src: tangyuan,
-      title: "Tangyuan Making",
-      time: "10:00AM-12:00PM",
-      text: "During this 2 hour lesson, you will learn how to make the traditional Tangyuan with the world-renowned chef, Gordon Ramsay.",
-    },
     {
       src: riddle,
-      title: "Riddle Guessing",
-      time: "1:00PM-2:00PM",
-      text: "Have fun guessing traditional lantern riddles, written by our team, specially adapted to the English language! Hard enough to be fun, but simple enough to not be frustrating.",
+      title: 'Riddle Guessing',
+      time: '1:00PM-2:00PM',
+      text: 'Have fun guessing traditional lantern riddles, written by our team, specially adapted to the English language! Hard enough to be fun, but simple enough to not be frustrating.',
     },
     {
       src: lantern,
-      title: "Lantern Making",
-      time: "2:30PM-4:00PM",
-      text: "Learn how to make lanterns with people from China, following a easy process that anybody can do and will have fantastic results!",
+      title: 'Lantern Making',
+      time: '2:30PM-4:00PM',
+      text: 'Learn how to make lanterns with people from China, following a easy process that anybody can do and will have fantastic results!',
     },
     {
       src: poems,
-      title: "Poems",
-      time: "5:00PM-6:30PM",
-      text: "Learn about beautiful Asian poems with a famous Chinese poet, Da Niu. These are very ancient and famous poems, and are often taught as part of the school curriculum.",
+      title: 'Poems',
+      time: '5:00PM-6:30PM',
+      text: 'Learn about beautiful Asian poems with a famous Chinese poet, Da Niu. These are very ancient and famous poems, and are often taught as part of the school curriculum.',
     },
     {
-      src: "https://picsum.photos/200/300" /* placeholder */,
-      title: "Lantern Festival Show",
-      time: "7:00PM-10:00PM",
+      src: 'https://picsum.photos/200/300' /* placeholder */,
+      title: 'Lantern Festival Show',
+      time: '7:00PM-10:00PM',
       text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's very energetic.",
     },
   ];
   return (
     <Layout>
-      <Banner img={banner} text="Events" />
-      <div className="content mx-4 flex flex-col justify-center">
-        <div className="body relative -top-1">
-          <p className="text-center text-3xl">
+      <Banner img={banner} text='Events' />
+      <div className='content mx-4 flex flex-col justify-center'>
+        <div className='body relative -top-1'>
+          <p className='text-center text-3xl'>
             Ways to celebrate Lantern Festival
           </p>
-          <p className="mx-14 mt-6 text-2xl">
+          <p className='mx-14 mt-6 text-2xl'>
             Here are events that you can do throughout the day to celebrate this
             important day in Chinese culture. We recommend you do as many of
             them as possible to have a great time. All activities will be
             instructed by experts.
           </p>
         </div>
-        <Grid cards={cards} />
+        <div className='container my-12 mx-auto md:px-12'>
+          <div className='flex flex-wrap -mx-1 lg:-mx-4 justify-center'>
+            <Card src={tangyuan} title='Tangyuan Making' time='10:00AM-12:00PM'>
+              During this 2 hour lesson, you will learn how to make the
+              traditional Tangyuan with world-renowned chef, Gordon Ramsay. We
+              will be using <a className='link'>this</a> recipe.
+            </Card>
+            <Grid cards={cards} />
+          </div>
+        </div>
       </div>
     </Layout>
   );
