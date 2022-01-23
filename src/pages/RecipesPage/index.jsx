@@ -56,7 +56,7 @@ export default function RecipesPage() {
         </h1>
         <h1 className='text-center text-xl'>
           If you truly don't have the time or you can't find all the
-          ingredients, you can always go to your local asian market to buy some
+          ingredients, you can always go to your local Asian market to buy some
           frozen ones and just boil them until they are soft.
         </h1>
         <Recipe ingredients={ingredients} />
