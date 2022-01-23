@@ -49,17 +49,6 @@ footer * {
     1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
 }
 
-.event-btn {
-  background-color: var(--light-red);
-  color: var(--mustard) !important;
-  transition: 0.3s all;
-}
-
-.event-btn:hover {
-  animation: none;
-  background-color: var(--red);
-}
-
 #btn-close:focus {
   box-shadow: 0 0 0 0.25rem var(--mustard);
 }

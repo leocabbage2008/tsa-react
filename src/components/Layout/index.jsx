@@ -9,7 +9,10 @@ export default function Layout({ children }) {
   const currentYear = new Date().getFullYear();
   return (
     <div className='h-auto bg-light'>
-      <nav className='navbar navbar-expand-lg navbar-dark py-3' id='nav'>
+      <nav
+        className='navbar navbar-expand-lg navbar-dark py-3 sticky-top'
+        id='nav'
+      >
         <div className='container-fluid navbar'>
           <div className='flex'>
             <a href='/' className='mx-2'>
@@ -85,11 +88,7 @@ export default function Layout({ children }) {
                     About Us
                   </a>
                 </li>
-                <li className='nav-item'>
-                  <a className='nav-link active' href='/sources'>
-                    Sources
-                  </a>
-                </li>
+
                 <li className='nav-item my-auto py-2' id='dropdown'>
                   <Menu
                     as='div'
@@ -158,6 +157,11 @@ export default function Layout({ children }) {
                       </Menu.Items>
                     </Transition>
                   </Menu>
+                </li>
+                <li className='nav-item'>
+                  <a className='nav-link active' href='/sources'>
+                    Sources
+                  </a>
                 </li>
               </ul>
             </div>
