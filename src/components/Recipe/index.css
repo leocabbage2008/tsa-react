@@ -16,13 +16,12 @@
 
 .checkbox > input {
   appearance: none;
-  transition-duration: 0.3s;
   background-color: var(--mustard);
   cursor: pointer;
 }
 
 .checkbox > input:checked + span::before {
-  content: '\2713';
+  content: '\2714';
   display: block;
   color: var(--red);
   position: absolute;

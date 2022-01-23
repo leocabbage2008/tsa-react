@@ -7,9 +7,9 @@
   width: 24px;
   height: 24px;
   margin-right: 0.75rem;
-  font-size: 80%;
   background-color: var(--mustard);
   color: var(--red);
-  padding: 3px 8px;
+  padding-top: 1.25px;
+  padding-left: 6.5px;
   border-radius: 50%;
 }
