@@ -1,0 +1,10 @@
+.event-btn {
+  background-color: var(--red);
+  color: var(--mustard) !important;
+  transition: 0.3s all;
+  border: none;
+}
+
+.event-btn:hover {
+  background-color: var(--light-red);
+}
