@@ -46,7 +46,7 @@ export default function RecipesPage() {
   ];
   return (
     <Layout>
-      <Banner img={banner} text='Recipes' />
+      <Banner img={banner} text='Recipe' />
       <div className='content px-4'>
         <h1 className='text-center text-xl'>
           Today we're going to be learning how to make the Chinese dish, Yuan
