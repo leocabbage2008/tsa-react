@@ -168,7 +168,7 @@ export default function Layout({ children }) {
           </div>
         </div>
       </nav>
-      <div className='children'>{children}</div>
+      <div className='body'>{children}</div>
       <footer className='z-10'>
         <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
           <div className='z-10 flex justify-center space-x-6 md:order-2 bg-transparent'>
