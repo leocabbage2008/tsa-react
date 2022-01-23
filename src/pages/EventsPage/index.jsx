@@ -30,7 +30,7 @@ export default function EventsPage() {
       src: poems,
       title: 'Poems',
       time: '5:00PM-6:30PM',
-      text: 'Learn about beautiful Asian poems with a famous Chinese poet, Da Niu. These are very ancient and famous poems, and are often taught as part of the school curriculum.',
+      text: 'Learn about beautiful Asian poems with a famous Chinese poet, Da Niu. These are very ancient and famous poems, and are often taught as part of the school curriculum around the world.',
     },
     {
       src: festival,
