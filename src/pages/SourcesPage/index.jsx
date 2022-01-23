@@ -7,6 +7,14 @@ import banner from './banner.jpeg';
 export default function SourcesPage() {
   const sources = [
     {
+      title: 'Information source',
+      citeSource: 'https://www.chinahighlights.com/festivals/lantern-festival.htm',
+      author: 'Cindy',
+      licenseLink: '',
+      licenseName: '',
+      from: 'China Highlights',
+    },
+    {
       title: 'Homepage Banner Source',
       citeSource:
         'https://commons.wikimedia.org/wiki/File:Chinese_New_Year_Celebrations_with_Lanterns_in_Singapore.jpg',

@@ -56,3 +56,11 @@ footer * {
 #btn-close {
   opacity: 1;
 }
+
+#nav * :hover {
+  color: #9aad9e !important;
+}
+
+button:hover .arrow-down {
+  fill: #9aad9e !important;
+}
