@@ -11,7 +11,6 @@ import RecipesPage from './pages/RecipesPage';
 import AboutFestivalPage from './pages/AboutFestivalPage';
 import EventsPage from './pages/EventsPage';
 import SourcesPage from './pages/SourcesPage';
-import DirectionPage from './pages/DirectionsPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
 import React from 'react';
