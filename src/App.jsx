@@ -11,8 +11,8 @@ import RecipesPage from './pages/RecipesPage';
 import AboutFestivalPage from './pages/AboutFestivalPage';
 import EventsPage from './pages/EventsPage';
 import SourcesPage from './pages/SourcesPage';
+import ReferencePage from './pages/DirectionsPage';
 import ErrorPage from './pages/ErrorPage';
-import Layout from './components/Layout';
 import React from 'react';
 
 function App() {
@@ -25,20 +25,12 @@ function App() {
         <Route exact path='/festival/about' element={<AboutFestivalPage />} />
         <Route exact path='/events' element={<EventsPage />} />
         <Route exact path='/sources' element={<SourcesPage />} />
+        <Route exact path='/ref' element={<ReferencePage />} />
         {/* redirects */}
         <Route
           exact
           path='/festival'
           element={<Navigate to='/festival/about' />}
-        />
-        <Route
-          exact
-          path='/test'
-          element={
-            <Layout>
-              <div style={{ height: '1000000px' }} />
-            </Layout>
-          }
         />
         <Route exact path='/home' element={<Navigate to='/' />} />
         {/* -------------- */}
