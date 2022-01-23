@@ -58,9 +58,9 @@ footer * {
 }
 
 #nav * :hover {
-  color: var(--corn) !important;
+  color: #dbabab !important;
 }
 
 button:hover .arrow-down {
-  fill: var(--corn) !important;
+  fill: #dbabab !important;
 }
