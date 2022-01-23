@@ -62,7 +62,7 @@ export default function EventsPage() {
               time='10:00AM-12:00PM'
             >
               During this 2 hour lesson, you will learn how to make the
-              traditional Tang Yuan with world-renowned chef, Gordon Ramsay. We
+              traditional Tang Yuan with world-renowned chef, Gordo Ramsee. We
               will be using{' '}
               <a className='link' href='/festival/recipes'>
                 this
