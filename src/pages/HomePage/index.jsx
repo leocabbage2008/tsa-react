@@ -34,10 +34,8 @@ export default function HomePage() {
           </p>
           <hr />
           <p className='sm:mx-14 mt-6 text-2xl'>
-            We will be making lanterns, guessing riddles and making Tang Yuan, a
-            traditional Lantern Festival dish. This is a family event anybody can
-            attend, completely free of charge! All you need is to sign up and
-            you're good to go.
+            We will be making lanterns, guessing riddles, making Tang Yuan, and more. This is a family event anybody can
+            attend, completely free of charge!
           </p>
         </div>
         <div className='body relative -top-3'></div>
