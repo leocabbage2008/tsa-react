@@ -30,7 +30,7 @@ export default function EventsPage() {
       src: poems,
       title: 'Poems',
       time: '5:00PM-6:30PM',
-      text: 'Learn about beautiful Asian poems with a famous Chinese poet, Da Niu. These are very ancient and famous poems, and are often taught as part of the school curriculum.',
+      text: 'Learn about beautiful Asian poems with a famous Chinese poet, Da Niu. These are very ancient and famous poems, and are often taught as part of the school curriculum around the world.',
     },
     {
       src: festival,
@@ -38,7 +38,6 @@ export default function EventsPage() {
       time: '7:00PM-10:00PM',
       text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's very energetic.",
     },
-  ];
   return (
     <Layout>
       <Banner img={banner} text='Events' />
@@ -62,7 +61,7 @@ export default function EventsPage() {
               time='10:00AM-12:00PM'
             >
               During this 2 hour lesson, you will learn how to make the
-              traditional Tang Yuan with world-renowned chef, Gordon Ramsay. We
+              traditional Tang Yuan with world-renowned chef, Gordo Ramsee. We
               will be using{' '}
               <a className='link' href='/festival/recipes'>
                 this

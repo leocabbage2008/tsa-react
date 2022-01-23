@@ -46,18 +46,18 @@ export default function RecipesPage() {
   ];
   return (
     <Layout>
-      <Banner img={banner} text='Recipes' />
+      <Banner img={banner} text='Recipe' />
       <div className='content px-4'>
         <h1 className='text-center text-xl'>
           Today we're going to be learning how to make the Chinese dish, Yuan
-          Xiao. Yuan Xiao is a traditional Lantern Festival dish usually eaten
+          Xiao. Yuan Xiao is a traditional Lantern Festival dish eaten
           as a breakfast meal. They are a delicious rice ball usually filled
           with sweet black sesame seeds.
         </h1>
         <h1 className='text-center text-xl'>
           If you truly don't have the time or you can't find all the
-          ingredients, you can always go to your local asian market to buy some
-          frozen ones and just boil them until they are soft.
+          ingredients, you can always go to your local Asian market to buy some
+          frozen ones and then just skip to step 7.
         </h1>
         <Recipe ingredients={ingredients} />
         <Directions directions={directions} />

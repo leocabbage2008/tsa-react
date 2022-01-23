@@ -23,7 +23,7 @@
 .checkbox > input:checked + span::before {
   content: '\2714';
   display: block;
-  color: var(--red);
+  color: black;
   position: absolute;
   left: 0.1rem;
   top: 0.1rem;
