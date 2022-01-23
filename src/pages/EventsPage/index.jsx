@@ -38,7 +38,6 @@ export default function EventsPage() {
       time: '7:00PM-10:00PM',
       text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's very energetic.",
     },
-  ];
   return (
     <Layout>
       <Banner img={banner} text='Events' />
