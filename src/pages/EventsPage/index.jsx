@@ -49,9 +49,9 @@ export default function EventsPage() {
           </p>
           <p className='mx-14 mt-6 text-2xl'>
             Here are events that you can do throughout the day to celebrate this
-            important day in Chinese culture. We recommend you do as many of
-            them as possible to have a great time. All activities will be
-            instructed by experts.
+            important day in Chinese culture. We recommend doing as many as
+            possible to have a great time. All activities will be instructed by
+            experts.
           </p>
         </div>
         <div className='container my-12 mx-auto md:px-12'>

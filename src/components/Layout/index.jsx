@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   return (
     <div className='h-auto bg-light'>
       <nav
-        className='navbar navbar-expand-lg navbar-dark py-3 sticky-top'
+        className='navbar navbar-expand-lg navbar-dark pt-3 sticky-top'
         id='nav'
       >
         <div className='container-fluid navbar'>
@@ -165,7 +165,7 @@ export default function Layout({ children }) {
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link active' href='/ref'>
-                    Reference
+                    References
                   </a>
                 </li>
               </ul>

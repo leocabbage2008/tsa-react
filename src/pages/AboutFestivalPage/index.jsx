@@ -49,7 +49,10 @@ export default function AboutFestivalPage() {
             sesame seeds and you can learn to make them{' '}
             <a className='link' href='/festival/recipes'>
               here.
-            </a>
+            </a>{' '}
+            They are very delicious and an good source of calcium and manganese.
+            They are traditionally sold in vendors on the streets in or near the
+            Lantern Festival.
           </p>
         </div>
       </div>
