@@ -8,7 +8,9 @@ export default function Directions({ directions }) {
       <ol className='ml-3 space-y-5 directions'>
         {directions.map((v, i) => (
           <li className='flex' key={i}>
-            <div className='num-circle'>{i + 1}</div>
+            <div className='num-circle rounded-full flex justify-center items-center'>
+              {i + 1}
+            </div>
             <span className='direction'>{v.direction}</span>
           </li>
         ))}
