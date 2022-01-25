@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import { classNames } from '../../utils';
+import { v4 as uuid } from 'uuid';
 
 export default function Card({
   src,
@@ -10,7 +11,7 @@ export default function Card({
   className = '',
   children,
 }) {
-  const id = Math.random().toFixed(3) * 1000;
+  const id = uuid();
   return (
     <div
       className={classNames(

@@ -60,6 +60,7 @@ export default function EventsPage() {
               src={tangyuan}
               title='Tang Yuan Making'
               time='10:00AM-12:00PM'
+              className='my-1 px-0 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3'
             >
               During this 2 hour lesson, you will learn how to make the
               traditional Tang Yuan with world-renowned chef, Gordo Ramsee. We
