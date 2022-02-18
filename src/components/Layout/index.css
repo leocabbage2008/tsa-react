@@ -32,7 +32,7 @@ footer * {
 }
 
 .inner-dropdown a:hover {
-  opacity: 0.8;
+  background-color: var(--grey);
 }
 
 .centered {
@@ -58,17 +58,9 @@ footer * {
 }
 
 #nav * :hover {
-  color: var(--red) !important;
+  color: var(--pink) !important;
 }
 
-.dropdown-container:hover .arrow-down {
-  fill: var(--red) !important;
-  transition: none;
-}
-
-.dropdown-mid {
-  border-width: 0.05px;
-  border-color: var(--mustard);
-  border-left: none !important;
-  border-right: none !important;
+button:hover .arrow-down {
+  fill: var(--pink) !important;
 }

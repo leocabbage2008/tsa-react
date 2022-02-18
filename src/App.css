@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap");
 
 :root {
   --gold: #ffd700;
@@ -21,7 +21,7 @@ body {
 
 * {
   background-color: var(--black);
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 img {
@@ -44,6 +44,7 @@ hr {
   text-decoration: none;
   color: var(--red) !important;
   position: relative;
+  transition: 0.3 all;
 }
 
 .link:hover {
@@ -51,7 +52,7 @@ hr {
 }
 
 .link::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -68,8 +69,4 @@ hr {
     left: auto;
     width: 0%;
   }
-}
-
-* {
-  transition: all 0.1s;
 }

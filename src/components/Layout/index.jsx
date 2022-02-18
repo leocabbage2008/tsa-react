@@ -94,7 +94,7 @@ export default function Layout({ children }) {
                     as='div'
                     className='relative inline-block text-left flex align-center'
                   >
-                    <div className='dropdown-container'>
+                    <div>
                       <Menu.Button className='flex justify-center w-full'>
                         Lantern Festival
                         <svg
@@ -121,7 +121,7 @@ export default function Layout({ children }) {
                       leaveFrom='transform opacity-100 scale-100'
                       leaveTo='transform opacity-0 scale-95'
                     >
-                      <Menu.Items className='rounded-md mt-7.5 absolute left-0 mt-4.5 w-56 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
+                      <Menu.Items className='mt-7.5 absolute left-0 mt-4.5 w-56 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
                         <div className='rounded-lg inner-dropdown'>
                           <Menu.Item>
                             {() => (
@@ -137,7 +137,7 @@ export default function Layout({ children }) {
                             {() => (
                               <a
                                 href='/festival/recipes'
-                                className='block px-4 py-2 text-sm dropdown-mid'
+                                className='block px-4 py-2 text-sm'
                               >
                                 Recipe
                               </a>
@@ -147,7 +147,7 @@ export default function Layout({ children }) {
                             {() => (
                               <a
                                 href='/events'
-                                className='block px-4 py-2 text-sm rounded-b-md'
+                                className='block px-4 py-2 text-sm'
                               >
                                 Events
                               </a>
