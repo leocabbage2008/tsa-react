@@ -18,7 +18,7 @@ export default function EventsPage() {
       src: riddle,
       title: 'Riddle Guessing',
       time: '1:00PM-2:00PM',
-      text: 'Have fun guessing traditional lantern riddles, written by our team, specially adapted to the English language! Hard enough to be fun, but simple enough to not be frustrating.',
+      text: 'Have fun guessing traditional lantern riddles, written by our team, specially adapted to the English language! Hard enough to be fun, but simple enough to be solved!',
     },
     {
       src: lantern,
@@ -50,15 +50,16 @@ export default function EventsPage() {
           <p className='mx-14 mt-6 text-2xl'>
             Here are events that you can do throughout the day to celebrate this
             important day in Chinese culture. We recommend doing as many as
-            possible to have a great time. All activities will be instructed by
-            experts.
+            possible to have a great time, and to learn as much as you can about
+            the Lantern Festival. All activities will be instructed by experts
+            and be safely conducted to have a great experience.
           </p>
         </div>
         <div className='container my-12 mx-auto md:px-12'>
           <div className='flex flex-wrap -mx-1 lg:-mx-4 justify-center'>
             <Card
               src={tangyuan}
-              title='Tang Yuan Making'
+              title='Tang Yuan'
               time='10:00AM-12:00PM'
               className='my-1 px-0 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3'
             >
