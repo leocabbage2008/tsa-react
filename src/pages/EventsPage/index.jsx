@@ -18,7 +18,7 @@ export default function EventsPage() {
       src: riddle,
       title: 'Riddle Guessing',
       time: '1:00PM-2:00PM',
-      text: 'Have fun guessing traditional lantern riddles, written by our team, specially adapted to the English language! Hard enough to be fun, but simple enough to be solved!',
+      text: 'Have fun guessing traditional lantern riddles, written by our team, specially adapted to English! Hard enough to be fun, but simple enough to be solved!',
     },
     {
       src: lantern,
