@@ -13,15 +13,9 @@ import EventsPage from './pages/EventsPage';
 import SourcesPage from './pages/SourcesPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
-import React, {useState} from 'react';
-import {ThemeProvider} from 'styled-components';
+import React from 'react';
 
 function App() {
-  const [theme, setTheme] = useState("light");
-
-  const themeToggler = () => {
-    theme == 'light' ? setTheme('dark') : setTheme("light");
-  }
   return (
     <Router>
       <Routes>
