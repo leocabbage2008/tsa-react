@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import './index.css';
-import banner from './banner.jpg';
+import banner from './banner.webp';
 import Banner from '../../components/Banner';
 
 export default function HomePage() {

@@ -2,13 +2,14 @@ import React from 'react';
 import Cite from '../../components/Cite';
 import Layout from '../../components/Layout';
 import Banner from '../../components/Banner';
-import banner from './banner.jpeg';
+import banner from './banner.webp';
 
 export default function SourcesPage() {
   const sources = [
     {
       title: 'Information source',
-      citeSource: 'https://www.chinahighlights.com/festivals/lantern-festival.htm',
+      citeSource:
+        'https://www.chinahighlights.com/festivals/lantern-festival.htm',
       author: 'Cindy',
       licenseLink: '',
       licenseName: '',

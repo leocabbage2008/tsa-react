@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 import Recipe from '../../components/Recipe';
 import Directions from '../../components/Directions';
 import Banner from '../../components/Banner';
-import banner from './banner.jpg';
+import banner from './banner.webp';
 
 export default function RecipesPage() {
   const ingredients = [
@@ -50,9 +50,9 @@ export default function RecipesPage() {
       <div className='content px-4'>
         <h1 className='text-center text-xl'>
           Today we're going to be learning how to make the Chinese dish, Yuan
-          Xiao. Yuan Xiao is a traditional Lantern Festival dish eaten
-          as a breakfast meal. They are a delicious rice ball usually filled
-          with sweet black sesame seeds.
+          Xiao. Yuan Xiao is a traditional Lantern Festival dish eaten as a
+          breakfast meal. They are a delicious rice ball usually filled with
+          sweet black sesame seeds.
         </h1>
         <h1 className='text-center text-xl'>
           If you truly don't have the time or you can't find all the

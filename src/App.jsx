@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -13,7 +14,8 @@ import EventsPage from './pages/EventsPage';
 import SourcesPage from './pages/SourcesPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
-import React from 'react';
+import 'lazysizes';
+import './tailwind.min.css'
 
 function App() {
   return (

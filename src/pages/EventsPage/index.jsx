@@ -2,14 +2,14 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import './index.css';
 import Banner from '../../components/Banner';
-import banner from './banner.jpg';
+import banner from './banner.webp';
 import Grid from '../../components/Grid';
 // event images
-import tangyuan from './cardImages/TangYuan.jpg';
-import riddle from './cardImages/Riddle.jpeg';
-import lantern from './cardImages/Lantern.jpg';
-import poems from './cardImages/Poems.jpg';
-import festival from './cardImages/FestivalShow.jpg';
+import tangyuan from './cardImages/TangYuan.webp';
+import riddle from './cardImages/Riddle.webp';
+import lantern from './cardImages/Lantern.webp';
+import poems from './cardImages/Poems.webp';
+import festival from './cardImages/FestivalShow.webp';
 import Card from '../../components/Card';
 
 export default function EventsPage() {

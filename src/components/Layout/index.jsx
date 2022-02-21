@@ -3,7 +3,7 @@ import React from 'react';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import ScrollToTop from '../ScrollToTop';
-import logo from '../../logo.png';
+import logo from '../../logo.webp';
 
 export default function Layout({ children }) {
   const currentYear = new Date().getFullYear();
@@ -16,7 +16,7 @@ export default function Layout({ children }) {
         <div className='container-fluid navbar'>
           <div className='flex'>
             <a href='/' className='mx-2'>
-              <img src={logo} className='h-10 w-10' alt='logo' />
+              <img src={logo} className='h-10 w-10' loading='lazy' alt='logo' />
             </a>
             <a href='/' className='my-auto mx-2'>
               <span>Lantern Festival</span>

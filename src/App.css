@@ -27,8 +27,8 @@ img {
 }
 
 hr {
-  margin-bottom: 15px;
-  margin-top: 10px;
+  margin-bottom: 15px!important;
+  margin-top: 10px!important;
   background-color: var(--red);
   border-top-width: 2px;
   padding-bottom: 2px;
