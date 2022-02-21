@@ -1,17 +1,17 @@
-import React from 'react';
-import Layout from '../../components/Layout';
-import Recipe from '../../components/Recipe';
-import Directions from '../../components/Directions';
-import Banner from '../../components/Banner';
-import banner from './banner.webp';
+import React from "react";
+import Layout from "../../components/Layout";
+import Recipe from "../../components/Recipe";
+import Directions from "../../components/Directions";
+import Banner from "../../components/Banner";
+import banner from "../../images/bannerRecipes.webp";
 
 export default function RecipesPage() {
   const ingredients = [
-    { ingredient: '2 oz. roasted black sesame seeds' },
-    { ingredient: '3 oz. caster sugar' },
-    { ingredient: '6 tablespoons butter' },
-    { ingredient: '1 cup sweet rice flour' },
-    { ingredient: '1/2 cup warm water' },
+    { ingredient: "2 oz. roasted black sesame seeds" },
+    { ingredient: "3 oz. caster sugar" },
+    { ingredient: "6 tablespoons butter" },
+    { ingredient: "1 cup sweet rice flour" },
+    { ingredient: "1/2 cup warm water" },
   ];
   const directions = [
     {
@@ -20,11 +20,11 @@ export default function RecipesPage() {
     },
     {
       direction:
-        'Add the butter and pulse for 10 seconds at a time until the mixture is mixed well. Scoop everything into a bowl and put in refrigerator for about 30 minutes.',
+        "Add the butter and pulse for 10 seconds at a time until the mixture is mixed well. Scoop everything into a bowl and put in refrigerator for about 30 minutes.",
     },
     {
       direction:
-        'While the mixture is cooling, we will make the dough. First put the sweet rice flour into a mixing bowl. Slowly add in warm water while stirring. Then cover with a damp towel.',
+        "While the mixture is cooling, we will make the dough. First put the sweet rice flour into a mixing bowl. Slowly add in warm water while stirring. Then cover with a damp towel.",
     },
     {
       direction:
@@ -32,7 +32,7 @@ export default function RecipesPage() {
     },
     {
       direction:
-        'Split the dough into 12 pieces and cover with a damp paper towel. Now take out the filling, and roll it into marble sized balls. Take a dough ball and flatten it into a circle and then add filling to the center.',
+        "Split the dough into 12 pieces and cover with a damp paper towel. Now take out the filling, and roll it into marble sized balls. Take a dough ball and flatten it into a circle and then add filling to the center.",
     },
     {
       direction:
@@ -40,21 +40,21 @@ export default function RecipesPage() {
     },
     {
       direction:
-        'Bring a pot of water to boil and add the sesame balls in. Immediately stir them to make them not stick, and once the water is back to boiling, add a half cup of water to the pot. Repeat this two more times.',
+        "Bring a pot of water to boil and add the sesame balls in. Immediately stir them to make them not stick, and once the water is back to boiling, add a half cup of water to the pot. Repeat this two more times.",
     },
-    { direction: 'Enjoy!' },
+    { direction: "Enjoy!" },
   ];
   return (
     <Layout>
-      <Banner img={banner} text='Recipe' />
-      <div className='content px-4'>
-        <h1 className='text-center text-xl'>
+      <Banner img={banner} text="Recipe" />
+      <div className="content px-4">
+        <h1 className="text-center text-xl">
           Today we're going to be learning how to make the Chinese dish, Yuan
           Xiao. Yuan Xiao is a traditional Lantern Festival dish eaten as a
           breakfast meal. They are a delicious rice ball usually filled with
           sweet black sesame seeds.
         </h1>
-        <h1 className='text-center text-xl'>
+        <h1 className="text-center text-xl">
           If you truly don't have the time or you can't find all the
           ingredients, you can always go to your local Asian market to buy some
           frozen ones and then just skip to step 7.
