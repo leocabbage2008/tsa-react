@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap');
 
 :root {
-  --gold: #ffd700;
+  --gold: #ffe900;
   --mustard: #ffb300;
-  --corn: #ffbf00;  
+  --corn: #ffbf00;
   --red: #c2240b;
   --light-red: #d22b2b;
   --black: #202020;
@@ -27,8 +27,8 @@ img {
 }
 
 hr {
-  margin-bottom: 15px!important;
-  margin-top: 10px!important;
+  margin-bottom: 15px !important;
+  margin-top: 10px !important;
   background-color: var(--red);
   border-top-width: 2px;
   padding-bottom: 2px;

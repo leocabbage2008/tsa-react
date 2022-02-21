@@ -52,6 +52,7 @@ export default function ScrollToTop() {
             d='M5 10l7-7m0 0l7 7m-7-7v18'
           />
         </svg>
+        <span className='hidden'>Scroll To Top</span>
       </button>
     </div>
   );
