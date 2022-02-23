@@ -10,6 +10,8 @@ function Banner({ img, text }) {
         src={empty}
         data-srcset={img}
         alt='banner'
+        width='300'
+        height='400'
       />
       <p className='text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white font-semibold centered outline banner-header'>
         {text}

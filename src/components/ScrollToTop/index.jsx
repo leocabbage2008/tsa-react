@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { classNames } from '../../utils';
 import './index.css';
-import React from 'react';
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,6 +35,7 @@ export default function ScrollToTop() {
           isVisible ? 'opacity-100' : 'opacity-0 cursor-default',
           'duration-200 transition-all p-3 rounded-full scrollToTop hover:shadow-xl'
         )}
+        aria-label='Scroll to top'
         disabled={!isVisible}
       >
         <svg
@@ -52,7 +52,7 @@ export default function ScrollToTop() {
             d='M5 10l7-7m0 0l7 7m-7-7v18'
           />
         </svg>
-        <span className='hidden'>Scroll To Top</span>
+        <span aria-hidden='true'>Scroll to top</span>
       </button>
     </div>
   );

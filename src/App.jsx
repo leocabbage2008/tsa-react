@@ -15,7 +15,7 @@ import SourcesPage from './pages/SourcesPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
 import 'lazysizes';
-import './tailwind.min.css'
+import './tailwind.min.css';
 
 function App() {
   return (
