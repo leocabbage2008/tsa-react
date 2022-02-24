@@ -23,7 +23,7 @@ export default function Card({
       <img
         src={empty}
         data-srcset={src}
-        className="lazyload vh w-full card-img card-img-top"
+        className="lazyload card-img card-img-top"
         alt="card banner"
       />
       <div>

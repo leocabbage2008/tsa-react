@@ -52,7 +52,7 @@ export default function EventsPage() {
             important day in Chinese culture. We recommend doing as many as
             possible to have a great time, and to learn as much as you can about
             the Lantern Festival. All activities will be instructed by experts
-            and be safely conducted to have a great experience.
+            in order to have a great experience.
           </p>
         </div>
         <div className="container my-12 mx-auto md:px-12">
