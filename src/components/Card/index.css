@@ -27,6 +27,21 @@
 }
 
 .card-img {
-  max-height: 350px;
   vertical-align: middle;
+}
+
+.vh {
+  height: 55vh;
+}
+
+@media only screen and (max-height: 600px) {
+  .vh {
+    height: 300vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vh {
+    height: 50vh;
+  }
 }
