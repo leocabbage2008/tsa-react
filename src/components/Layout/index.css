@@ -65,10 +65,3 @@ footer * {
   fill: var(--red) !important;
   transition: none;
 }
-
-.dropdown-mid {
-  border-width: 0.05px;
-  border-color: var(--mustard);
-  border-left: none !important;
-  border-right: none !important;
-}
