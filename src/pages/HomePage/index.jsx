@@ -33,9 +33,9 @@ export default function HomePage() {
           </p>
           <hr />
           <p className="sm:mx-14 mt-6 text-2xl">
-            In this event, we will be making lanterns, guessing riddles, making
-            traditional Lantern Festival food, and more. This is an wonderful
-            event anybody can attend, completely free of charge!
+            During this event, we will be making lanterns, guessing riddles,
+            making traditional Lantern Festival food, and more. This is an
+            wonderful event anybody can attend, completely free of charge!
           </p>
         </div>
         <div className="body relative -top-3"></div>
