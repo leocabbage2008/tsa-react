@@ -1,6 +1,6 @@
 {
-  "short_name": "Lantern Festival",
   "name": "TSA Lantern Festival Project",
+  "short_name": "Lantern Festival",
   "icons": [
     {
       "src": "/logo.png",
@@ -8,8 +8,10 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
+  "lang": "en",
+  "start_url": "https://lanternfestival.tech/",
   "theme_color": "#000000",
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "display": "standalone",
+  "cacheDigest": "f4d46f030265b4c48a05c999b8d93791"
 }
