@@ -13,7 +13,7 @@ function Banner({ img, text }) {
         width='300'
         height='400'
       />
-      <p className='text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white font-semibold centered outline banner-header'>
+      <p className='banner-text sm:text-7xl md:text-8xl lg:text-9xl text-white font-semibold centered outline banner-header'>
         {text}
       </p>
       <hr className='relative -top-2.5' />
