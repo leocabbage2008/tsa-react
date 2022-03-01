@@ -2,7 +2,8 @@ import React from 'react';
 import './index.css';
 import { classNames } from '../../utils';
 import { v4 as uuid } from 'uuid';
-import empty from '../../empty.webp';
+// import empty from '../../empty.webp';
+import { Image } from '@imageengine/react';
 
 export default function Card({
   src,
@@ -20,12 +21,18 @@ export default function Card({
         className && className
       )}
     >
-      {/* card bg-transparent px-2 mb-3 my-1 px-0 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 */}
-      <img
+      {/* <img
         src={empty}
         data-srcset={src}
         className='lazyload card-img card-img-top'
         alt='card banner'
+      /> */}
+      <Image
+        src={src}
+        className='card-img card-img-top'
+        alt='card banner'
+        width='100'
+        height='150'
       />
       <div>
         <div className='accordion' id={`acc-controller${id}`}>

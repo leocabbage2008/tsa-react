@@ -14,32 +14,34 @@ import EventsPage from './pages/EventsPage';
 import SourcesPage from './pages/SourcesPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
-import 'lazysizes';
 import './tailwind.min.css';
+import { ImageEngineProvider } from '@imageengine/react';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path='/' element={<HomePage />} />
-        <Route exact path='/about' element={<AboutUsPage />} />
-        <Route exact path='/festival/recipes' element={<RecipesPage />} />
-        <Route exact path='/festival/about' element={<AboutFestivalPage />} />
-        <Route exact path='/events' element={<EventsPage />} />
-        <Route exact path='/sources' element={<SourcesPage />} />
-        <Route exact path='/ref' element={<ReferencePage />} />
-        {/* redirects */}
-        <Route
-          exact
-          path='/festival'
-          element={<Navigate to='/festival/about' />}
-        />
-        <Route exact path='/home' element={<Navigate to='/' />} />
-        {/* -------------- */}
-        {/* Error page */}
-        <Route path='*' element={<ErrorPage />} />
-      </Routes>
-    </Router>
+    <ImageEngineProvider deliveryAddress='https://jsa7yin6.cdn.imgeng.in/'>
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<HomePage />} />
+          <Route exact path='/about' element={<AboutUsPage />} />
+          <Route exact path='/festival/recipes' element={<RecipesPage />} />
+          <Route exact path='/festival/about' element={<AboutFestivalPage />} />
+          <Route exact path='/events' element={<EventsPage />} />
+          <Route exact path='/sources' element={<SourcesPage />} />
+          <Route exact path='/ref' element={<ReferencePage />} />
+          {/* redirects */}
+          <Route
+            exact
+            path='/festival'
+            element={<Navigate to='/festival/about' />}
+          />
+          <Route exact path='/home' element={<Navigate to='/' />} />
+          {/* -------------- */}
+          {/* Error page */}
+          <Route path='*' element={<ErrorPage />} />
+        </Routes>
+      </Router>
+    </ImageEngineProvider>
   );
 }
 
