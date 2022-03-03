@@ -31,10 +31,6 @@ footer * {
   color: var(--mustard);
 }
 
-.inner-dropdown a:hover {
-  opacity: 0.8;
-}
-
 .centered {
   position: absolute;
   top: 50%;
@@ -50,7 +46,7 @@ footer * {
     1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
 }
 
-#nav > * :focus {
+#nav>* :focus {
   outline: none !important;
   box-shadow: none;
 }
@@ -63,7 +59,7 @@ footer * {
   opacity: 1;
 }
 
-#nav > * :hover {
+#nav>* :hover {
   color: var(--red) !important;
 }
 

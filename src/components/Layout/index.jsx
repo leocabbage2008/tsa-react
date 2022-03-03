@@ -14,7 +14,7 @@ export default function Layout({ children }) {
       >
         <div className="container-fluid navbar">
           <div className="flex">
-            <a href="/" className="mx-2">
+            <a href="/" className="mx-2 cursor-pointer">
               <img
                 src={logo}
                 className="h-10 w-10"
@@ -57,9 +57,9 @@ export default function Layout({ children }) {
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div className="offcanvas-header">
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
+              <a className="offcanvas-title" href="/" id="offcanvasNavbarLabel">
                 Lantern Festival
-              </h5>
+              </a>
               <button
                 type="button"
                 className="btn-close text-reset"
@@ -95,7 +95,7 @@ export default function Layout({ children }) {
                   </a>
                 </li>
 
-                <li className="nav-item my-auto py-2" id="dropdown">
+                <li className="nav-item my-auto sm:py-2 pl-0" id="dropdown">
                   <Menu
                     as="div"
                     className="relative inline-block text-left flex align-center"

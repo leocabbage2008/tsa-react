@@ -4,7 +4,7 @@
   --gold: #ffe900;
   --mustard: #ffb300;
   --corn: #ffbf00;
-  --red: #c2240b;
+  --red: #d70600;
   --light-red: #d22b2b;
   --black: #202020;
   --grey: #3f3f3f;
@@ -14,7 +14,10 @@
 body {
   background-color: var(--black);
   height: 100vh;
-  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
 }
 
 * {
