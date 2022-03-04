@@ -6,4 +6,5 @@
 
 .event-btn:hover {
   background-color: var(--light-red);
+  color: var(--gold);
 }

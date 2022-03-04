@@ -23,6 +23,12 @@ body {
 * {
   background-color: var(--black);
   font-family: 'Nunito', sans-serif;
+  transition: all 0.1s;
+}
+
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 img {

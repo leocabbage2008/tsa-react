@@ -46,11 +46,6 @@ footer * {
     1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
 }
 
-#nav>* :focus {
-  outline: none !important;
-  box-shadow: none;
-}
-
 #nav button:hover path {
   color: var(--red);
 }
@@ -59,11 +54,11 @@ footer * {
   opacity: 1;
 }
 
-#nav>* :hover {
+#nav > * :hover {
   color: var(--red) !important;
 }
 
-.dropdown-container:hover .arrow-down {
+.dropdown-toggle:hover .arrow-down {
   fill: var(--red) !important;
   transition: none;
 }
