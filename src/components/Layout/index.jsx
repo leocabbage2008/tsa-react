@@ -100,7 +100,7 @@ export default function Layout({ children }) {
                     as='div'
                     className='relative inline-block text-left flex align-center'
                   >
-                    <div className='dropdown-toggle'>
+                    <div className='dropdown-controller'>
                       <Menu.Button className='flex justify-center w-full'>
                         Lantern Festival
                         <svg

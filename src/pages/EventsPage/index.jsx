@@ -44,18 +44,16 @@ export default function EventsPage() {
     <Layout>
       <Banner img={banner} text='Events' />
       <div className='content mx-4 flex flex-col justify-center'>
-        <div className='body relative -top-1'>
-          <p className='text-center text-3xl'>
-            Ways to celebrate Lantern Festival
-          </p>
-          <p className='mx-14 mt-6 text-2xl'>
-            Here are events that you can do throughout the day to celebrate this
-            important day in Chinese culture. We recommend doing as many as
-            possible to have a great time, and to learn as much as you can about
-            the Lantern Festival. All activities will be instructed by experts
-            in order to have a great experience.
-          </p>
-        </div>
+        <p className='text-center text-3xl'>
+          Ways to celebrate Lantern Festival
+        </p>
+        <p className='mx-14 mt-6 text-2xl'>
+          Here are events that you can do throughout the day to celebrate this
+          important day in Chinese culture. We recommend doing as many as
+          possible to have a great time, and to learn as much as you can about
+          the Lantern Festival. All activities will be instructed by experts in
+          order to have a great experience.
+        </p>
         <div className='container my-12 mx-auto md:px-12'>
           <div className='flex flex-wrap -mx-1 lg:-mx-4 justify-center'>
             <Card

@@ -31,7 +31,7 @@ footer * {
   color: var(--mustard);
 }
 
-.centered {
+.center {
   position: absolute;
   top: 50%;
   left: -3px;
@@ -58,7 +58,7 @@ footer * {
   color: var(--red) !important;
 }
 
-.dropdown-toggle:hover .arrow-down {
+.dropdown-controller:hover .arrow-down {
   fill: var(--red) !important;
   transition: none;
 }

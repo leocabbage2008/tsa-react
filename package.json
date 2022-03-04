@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "name": "Lantern Festival",
+  "homepage": "http://www.lanternfestival.tech",
   "version": "0.1.0",
   "private": true,
   "resolutions": {
