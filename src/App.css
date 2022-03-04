@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@500&display=swap');
 
 :root {
-  --gold: #ffe900;
+  --gold: #fff000;
   --mustard: #ffb300;
   --corn: #ffbf00;
   --red: #d70600;
   --light-red: #d22b2b;
   --black: #202020;
   --grey: #3f3f3f;
-  --pink: #dbabab;
 }
 
 body {
