@@ -54,7 +54,7 @@ footer * {
   opacity: 1;
 }
 
-#nav > * :hover {
+#nav>* :hover {
   color: var(--red) !important;
 }
 

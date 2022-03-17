@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import './ThemeDark.css';
+import './ThemeLight.css';
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,6 +12,7 @@ import AboutUsPage from './pages/AboutUsPage';
 import RecipesPage from './pages/RecipesPage';
 import AboutFestivalPage from './pages/AboutFestivalPage';
 import EventsPage from './pages/EventsPage';
+import DetailedEvents from './pages/DetailedEvents'
 import SourcesPage from './pages/SourcesPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
@@ -26,6 +28,7 @@ function App() {
         <Route exact path='/festival/recipes' element={<RecipesPage />} />
         <Route exact path='/festival/about' element={<AboutFestivalPage />} />
         <Route exact path='/events' element={<EventsPage />} />
+        <Route exact path='/events/detailed' element={<DetailedEvents />} />
         <Route exact path='/sources' element={<SourcesPage />} />
         <Route exact path='/ref' element={<ReferencePage />} />
         {/* redirects */}

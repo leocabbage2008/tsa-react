@@ -1,8 +1,13 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import banner from "../../images/bannerAboutUs.webp";
+import banner from "../../empty.webp";
 import Banner from "../../components/Banner";
 
-export default function AboutUsPage() {
-  return <Layout></Layout>;
+export default function DetailedEvents() {
+  return(
+    <Layout>
+      <Banner img={banner} text='About Festival' /> 
+      <p>Test</p>
+    </Layout>
+  ) 
 }

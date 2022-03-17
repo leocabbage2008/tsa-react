@@ -99,11 +99,11 @@ export default function SourcesPage() {
     {
       title: "Tang Yuan Event Image Source",
       citeSource:
-        "https://thewoksoflife.com/wp-content/uploads/2016/01/tang-yuan-3.jpg",
-      author: "Jleung",
-      licenseLink: "",
-      licenseName: "",
-      from: "The Woks of Life",
+        "https://commons.wikimedia.org/wiki/File:HK_Lee_Chun_Food_Seesame_Tong_Yuen_Glutinous_Rice_Ball_2.JPG",
+      author: "Lee Chun Food",
+      licenseLink: "https://creativecommons.org/licenses/by-sa/3.0/",
+      licenseName: "CC BY-SA 3.0",
+      from: "Wikimedia Commons (edited using Gimp)",
     },
     {
       title: "Riddle Event Image Source",
