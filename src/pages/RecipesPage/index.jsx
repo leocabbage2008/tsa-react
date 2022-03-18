@@ -49,7 +49,7 @@ export default function RecipesPage() {
       <Banner img={banner} text="Recipe" />
       <div className="content px-4">
         <h1 className="text-center text-xl">
-          Today we're going to be learning how to make the Chinese dish, Yuan
+          Today we're going to be learning how to make a Chinese dish, Yuan
           Xiao. Yuan Xiao is a traditional Lantern Festival dish typically eaten
           as a breakfast meal. They are a delicious rice ball usually filled
           with sweet black sesame seeds.
