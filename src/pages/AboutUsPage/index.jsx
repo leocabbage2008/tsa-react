@@ -2,10 +2,14 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import banner from '../../images/bannerAboutUs.webp';
 import Banner from '../../components/Banner';
+import { Helmet } from 'react-helmet';
 
 export default function AboutUsPage() {
   return (
     <Layout>
+      <Helmet>
+        <title>About Us</title>
+      </Helmet>
       <Banner img={banner} text='About Us' />
       <div className='content px-4'>
         <p className='text-center text-2xl'>Who Are We?</p>

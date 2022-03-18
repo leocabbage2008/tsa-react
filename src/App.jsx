@@ -9,10 +9,10 @@ import {
 } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
-import RecipesPage from './pages/RecipesPage';
+import RecipePage from './pages/RecipePage';
 import AboutFestivalPage from './pages/AboutFestivalPage';
 import EventsPage from './pages/EventsPage';
-import DetailedEvents from './pages/DetailedEvents'
+import DetailedEvents from './pages/DetailedEvents';
 import SourcesPage from './pages/SourcesPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
@@ -25,7 +25,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<HomePage />} />
         <Route exact path='/about' element={<AboutUsPage />} />
-        <Route exact path='/festival/recipes' element={<RecipesPage />} />
+        <Route exact path='/festival/recipe' element={<RecipePage />} />
         <Route exact path='/festival/about' element={<AboutFestivalPage />} />
         <Route exact path='/events' element={<EventsPage />} />
         <Route exact path='/events/detailed' element={<DetailedEvents />} />

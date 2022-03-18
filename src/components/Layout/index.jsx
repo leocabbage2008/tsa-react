@@ -142,7 +142,7 @@ export default function Layout({ children }) {
                           <Menu.Item>
                             {() => (
                               <a
-                                href='/festival/recipes'
+                                href='/festival/recipe'
                                 className='block px-4 py-2 text-sm'
                               >
                                 Recipe

@@ -2,10 +2,14 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Banner from '../../components/Banner';
 import banner from '../../images/bannerAboutFestival.webp';
+import { Helmet } from 'react-helmet';
 
 export default function AboutFestivalPage() {
   return (
     <Layout className='about'>
+      <Helmet>
+        <title>About Festival</title>
+      </Helmet>
       <div className='p-2'>
         <Banner img={banner} text='About Festival' />
         <div className='content px-4'>
@@ -47,7 +51,7 @@ export default function AboutFestivalPage() {
             Glutinous Rice Balls in English. Traditionally filled with sesame
             seeds and sold by street vendors during or near the Lantern
             Festival, you can learn to make them{' '}
-            <a className='link' href='/festival/recipes'>
+            <a className='link' href='/festival/recipe'>
               here.
             </a>
           </p>
