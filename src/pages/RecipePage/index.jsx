@@ -4,7 +4,6 @@ import Recipe from '../../components/Recipe';
 import Directions from '../../components/Directions';
 import Banner from '../../components/Banner';
 import banner from '../../images/bannerRecipes.webp';
-import { Helmet } from 'react-helmet';
 
 export default function RecipesPage() {
   const ingredients = [
@@ -46,10 +45,7 @@ export default function RecipesPage() {
     { direction: 'Scoop the balls out and place them into a bowl. Enjoy!' },
   ];
   return (
-    <Layout>
-      <Helmet>
-        <title>Recipe</title>
-      </Helmet>
+    <Layout title='Recipe'>
       <Banner img={banner} text='Recipe' />
       <div className='content px-4'>
         <h1 className='text-center text-xl'>

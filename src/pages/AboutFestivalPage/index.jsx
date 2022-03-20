@@ -2,14 +2,10 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Banner from '../../components/Banner';
 import banner from '../../images/bannerAboutFestival.webp';
-import { Helmet } from 'react-helmet';
 
 export default function AboutFestivalPage() {
   return (
-    <Layout className='about'>
-      <Helmet>
-        <title>About Festival</title>
-      </Helmet>
+    <Layout className='about' title='About Festival'>
       <div className='p-2'>
         <Banner img={banner} text='About Festival' />
         <div className='content px-4'>

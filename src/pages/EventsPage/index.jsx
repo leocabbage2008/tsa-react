@@ -11,7 +11,6 @@ import lantern from '../../images/cardImages/Lantern.webp';
 import poems from '../../images/cardImages/Poems.webp';
 import festival from '../../images/cardImages/FestivalShow.webp';
 import Card from '../../components/Card';
-import { Helmet } from 'react-helmet';
 
 export default function EventsPage() {
   const className = 'my-1 px-0 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/5';
@@ -42,10 +41,7 @@ export default function EventsPage() {
     },
   ];
   return (
-    <Layout>
-      <Helmet>
-        <title>Events</title>
-      </Helmet>
+    <Layout title='Events'>
       <Banner img={banner} text='Events' />
       <div className='content mx-4 flex flex-col justify-center'>
         <p className='text-center text-3xl'>

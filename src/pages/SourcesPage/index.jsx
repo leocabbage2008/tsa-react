@@ -3,7 +3,6 @@ import Cite from '../../components/Cite';
 import Layout from '../../components/Layout';
 import Banner from '../../components/Banner';
 import banner from '../../images/bannerSources.webp';
-import { Helmet } from 'react-helmet';
 
 export default function SourcesPage() {
   const sources = [
@@ -138,10 +137,7 @@ export default function SourcesPage() {
     },
   ];
   return (
-    <Layout>
-      <Helmet>
-        <title>Sources</title>
-      </Helmet>
+    <Layout title='Sources'>
       <Banner img={banner} text='Sources' />
       <div className='content mx-4 flex flex-col justify-center'>
         <Cite sources={sources} />
