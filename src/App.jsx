@@ -12,7 +12,7 @@ import AboutUsPage from './pages/AboutUsPage';
 import RecipePage from './pages/RecipePage';
 import AboutFestivalPage from './pages/AboutFestivalPage';
 import EventsPage from './pages/EventsPage';
-import DetailedEvents from './pages/DetailedEvents';
+import DetailedEventsPage from './pages/DetailedEventsPage';
 import SourcesPage from './pages/SourcesPage';
 import ReferencePage from './pages/ReferencePage';
 import ErrorPage from './pages/ErrorPage';
@@ -28,7 +28,7 @@ function App() {
         <Route exact path='/festival/recipe' element={<RecipePage />} />
         <Route exact path='/festival/about' element={<AboutFestivalPage />} />
         <Route exact path='/events' element={<EventsPage />} />
-        <Route exact path='/events/detailed' element={<DetailedEvents />} />
+        <Route exact path='/events/detailed' element={<DetailedEventsPage />} />
         <Route exact path='/sources' element={<SourcesPage />} />
         <Route exact path='/ref' element={<ReferencePage />} />
         {/* redirects */}
