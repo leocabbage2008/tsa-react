@@ -169,16 +169,6 @@ export default function Layout({ children, title }) {
                                 </a>
                               )}
                             </Menu.Item>
-                            <Menu.Item>
-                              {() => (
-                                <a
-                                  href='/events/detailed'
-                                  className='block px-4 py-2 text-sm rounded-b-md'
-                                >
-                                  Detailed Events
-                                </a>
-                              )}
-                            </Menu.Item>
                           </div>
                         </Menu.Items>
                       </Transition>
