@@ -152,20 +152,20 @@ export default function Layout({ children, title }) {
                             <Menu.Item>
                               {() => (
                                 <a
-                                  href='/festival/recipe'
-                                  className='block px-4 py-2 text-sm'
+                                  href='/events'
+                                  className='block px-4 py-2 text-sm rounded-b-md'
                                 >
-                                  Recipe
+                                  Events
                                 </a>
                               )}
                             </Menu.Item>
                             <Menu.Item>
                               {() => (
                                 <a
-                                  href='/events'
-                                  className='block px-4 py-2 text-sm rounded-b-md'
+                                  href='/festival/recipe'
+                                  className='block px-4 py-2 text-sm'
                                 >
-                                  Events
+                                  Recipe
                                 </a>
                               )}
                             </Menu.Item>

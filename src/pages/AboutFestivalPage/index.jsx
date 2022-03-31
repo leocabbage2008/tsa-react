@@ -43,13 +43,7 @@ export default function AboutFestivalPage() {
 
           <p className='text-xl'>
             Now, people celebrate the Lantern Festival by lighting and watching
-            lanterns, guessing lantern riddles, and eating Yuan Xiao, known as
-            Glutinous Rice Balls in English. Traditionally filled with sesame
-            seeds and sold by street vendors during or near the Lantern
-            Festival, you can learn to make them{' '}
-            <a className='link' href='/festival/recipe'>
-              here.
-            </a>
+            lanterns, guessing lantern riddles, and eating Yuan Xiao which you will learn to make on this website.
           </p>
         </div>
       </div>
