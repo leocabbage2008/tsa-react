@@ -12,3 +12,13 @@
 h2 {
   font-size: 4vw!important;
 }
+
+.button {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 1.5vw!important;
+  padding-right: 1.5vw!important;
+  font-size: 2vw!important;
+  font-weight: 1000;
+  border-radius:10%;
+}

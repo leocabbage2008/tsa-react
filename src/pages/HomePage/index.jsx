@@ -10,13 +10,13 @@ export default function HomePage() {
       <Banner img={banner} text='Lantern Festival' />
       <div className='content mx-4 flex flex-col justify-center'>
         <a
-          className='btn mx-auto relative -top-14 py-3 px-3 sm:px-5 text-lg event-btn'
+          className='button btn mx-auto relative -top-14 sm:px-5 text-lg event-btn'
           href='/events'
         >
           Visit Events Here
         </a>
         <div className='content mx-4 text-center'>
-          <br /><br /><br /><br />
+          <br /><br /><br />
           <h2 className='text-center font-bold'>
             Experience the Magical Chinese Lantern Festival From the comfort of your own home!
           </h2>
