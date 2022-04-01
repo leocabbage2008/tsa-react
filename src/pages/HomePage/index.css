@@ -8,3 +8,7 @@
   background-color: var(--light-red);
   color: var(--gold);
 }
+
+h2 {
+  font-size: 4vw!important;
+}

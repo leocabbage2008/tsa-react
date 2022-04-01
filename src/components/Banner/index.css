@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-
 .vh {
   height: 55vh;
+
 }
 
 @media only screen and (max-height: 600px) {
@@ -21,7 +20,9 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+
 .banner-text {
-  font-size: 3.5rem;
+  font-size: 13vw!important;
   line-height: 1;
 }
+

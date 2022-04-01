@@ -16,13 +16,14 @@ export default function HomePage() {
           Visit Events Here
         </a>
         <div className='content mx-4 text-center'>
-          <p className='text-center text-3xl'>
-            The Magical Chinese Lantern Festival...
-          </p>
-          <p className='text-center mt-6 text-2xl'>
-            From the comfort of your own home!
-          </p>
-          <p className='sm:mx-14 mt-6 text-2xl'>
+          <br /><br /><br /><br />
+          <h2 className='text-center font-bold'>
+            Experience the Magical Chinese Lantern Festival From the comfort of your own home!
+          </h2>
+          <br /><br /><br /><br />
+          <hr />
+          <br /><br /><br />
+          <p className='sm:mx-14 mt-6 text-2xl left'>
             Due to the Covid-19 pandemic, we will not be hosting our annual
             celebrations in-person. Instead, we're going to be hosting our
             events online on Febuary 15th, 2022. Click the above button to learn
@@ -32,6 +33,7 @@ export default function HomePage() {
               here.
             </a>{' '}
           </p>
+          <br /><br /><br />
           <hr />
           <p className='sm:mx-14 mt-6 text-2xl'>
             During this event, we will be making lanterns, guessing riddles,
