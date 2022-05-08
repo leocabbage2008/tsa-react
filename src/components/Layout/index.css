@@ -12,12 +12,6 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  *:not(.link) {
-    font-size: 10px;
-  }
-}
-
 @media only screen and (min-width: 975px) {
   #dropdown {
     padding-left: 8px;
