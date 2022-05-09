@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .event-btn {
   background-color: var(--red);
   color: var(--gold);
@@ -10,15 +12,27 @@
 }
 
 h2 {
-  font-size: 4vw!important;
+  font-size: 3rem!important;
 }
 
-.button {
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-  padding-left: 1.5vw!important;
-  padding-right: 1.5vw!important;
-  font-size: 2vw!important;
-  font-weight: 1000;
-  border-radius:10%;
+h3 {
+  font-size: 3rem!important;
+  margin-bottom: 5vh!important;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif!important;
+  font-size: 10rem!important;
+  text-align: center;
+  font-weight: 600!important;
+}
+
+.h2 {
+  margin: 8vh auto 0 auto;
+  width: 50%;
+}
+
+.container_online {
+  margin: 0 auto 0 10vw;
+  width: 40%;
 }
