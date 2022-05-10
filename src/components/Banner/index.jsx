@@ -6,12 +6,12 @@ function Banner({ img, text }) {
   return (
     <div className='p-2 relative h-auto pt-0'>
       <img
-        className='p-0 lazyload object-cover vh w-full brightness-90'
+        className='p-0 lazyload object-cover banner w-full brightness-90'
         src={empty}
         data-srcset={img}
         alt='banner'
       />
-      <p className='banner-text center banner-header'>
+      <p className='banner-text center'>
         {text}
       </p>
     </div>

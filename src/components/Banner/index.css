@@ -1,32 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.vh {
-  height: 55vh;
+.banner {
+  height: auto;
 
-}
-
-@media only screen and (max-height: 600px) {
-  .vh {
-    height: 300vh;
-  }
 }
 
 @media only screen and (max-width: 600px) {
-  .vh {
+  .banner {
     height: 45vh;
   }
 }
 
-.banner-header {
-  font-family: 'Merriweather', serif;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-
 .banner-text {
   font-family: 'Lato', sans-serif!important;
-  font-size: 10vw!important;
-  text-align: center;
-  font-weight: 600!important;
+  font-size: 10vw;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0);
 }
 
