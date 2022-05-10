@@ -12,24 +12,25 @@
 }
 
 h2 {
-  font-size: 3rem!important;
+  font-size: 3rem !important;
 }
 
 h3 {
-  font-size: 3rem!important;
-  margin-bottom: 5vh!important;
+  font-size: 3rem !important;
+  margin-bottom: 5vh !important;
 }
 
-h1 {
-  font-family: 'Lato', sans-serif!important;
-  font-size: 10rem!important;
+.banner-header {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 10rem !important;
   text-align: center;
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
 
-.h2 {
+.banner-sub {
   margin: 8vh auto 0 auto;
   width: 50%;
+  font-size: 2vw;
 }
 
 .container_online {
