@@ -1,14 +1,13 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import './index.css';
-// import banner from '../../images/bannerHomePage.webp';
-// import Banner from '../../components/Banner';
+import banner from '../../images/bannerHome.webp';
+import Banner from '../../components/Banner';
 
 export default function HomePage() {
   return (
     <Layout>
-      {/* <Banner img={banner} text='Lantern Festival' /> */}
-      <h1 className=''>Lantern Festival</h1>
+      <Banner className='banner' img={banner} text='Lantern Festival' />
       {/* <a
           className='button btn mx-auto relative -top-14 sm:px-5 text-lg event-btn'
           href='/events'

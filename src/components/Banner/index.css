@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .vh {
   height: 55vh;
 
@@ -22,7 +24,9 @@
 
 
 .banner-text {
-  font-size: 13vw!important;
-  line-height: 1;
+  font-family: 'Lato', sans-serif!important;
+  font-size: 10vw!important;
+  text-align: center;
+  font-weight: 600!important;
 }
 

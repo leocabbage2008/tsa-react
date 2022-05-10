@@ -36,3 +36,7 @@ h1 {
   margin: 0 auto 0 10vw;
   width: 40%;
 }
+
+body, html {
+  padding: 0;
+}
