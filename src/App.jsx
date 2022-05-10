@@ -1,6 +1,5 @@
 import React from 'react';
-import './ThemeDark.css';
-import './ThemeLight.css';
+import './App.css';
 import {
   BrowserRouter as Router,
   Routes,

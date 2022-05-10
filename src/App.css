@@ -24,6 +24,7 @@ body {
   background-color: var(--black);
   font-family: 'Nunito', sans-serif;
   transition: all 0.1s;
+  user-select: none;
 }
 
 *:focus {

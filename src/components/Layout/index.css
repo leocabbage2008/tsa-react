@@ -54,11 +54,15 @@ footer * {
   opacity: 1;
 }
 
-#nav>* :hover {
+#nav > * :hover {
   color: var(--red) !important;
 }
 
 .dropdown-controller:hover .arrow-down {
   fill: var(--red) !important;
   transition: none;
+}
+
+#nav {
+  padding-right: 4vw;
 }
