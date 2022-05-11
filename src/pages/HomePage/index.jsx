@@ -14,9 +14,6 @@ export default function HomePage() {
         >
           Visit Events Here
         </a> */}
-      <br />
-      <br />
-      <br />
       <div className='h2'>
         <h2 className='text-center font-bold'>
           Experience the Magical Chinese Lantern Festival From the comfort of
@@ -30,9 +27,7 @@ export default function HomePage() {
           <p className='sm:mx-14 mt-6 text-2xl'>
             Due to the Covid-19 pandemic, we will not be hosting our annual
             celebrations in-person. Instead, we're going to be hosting our
-            events online on February 15th, 2022. Click the above button to
-            learn more about our events, or learn more about the Chinese Lantern
-            Festival{' '}
+            events online on February 15th, 2022. Before then, you can learn more about the Lantern Festival{' '}
             <a href='/festival/about' className='link'>
               here.
             </a>
