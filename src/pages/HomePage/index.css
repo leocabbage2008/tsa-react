@@ -20,17 +20,13 @@ h3 {
   font-size: 3rem !important;
   margin-bottom: 5vh !important;
   color: var(--light-red) !important;
+  font-weight: 600!important;
 }
-
-/* .container_online {
-  margin-left: 2vw!important;
-  width: 40%;
-} */
-
+/* 
 img {
   width: 33%;
 }
 
 .online-text {
   width: 50%;
-}
+} */
