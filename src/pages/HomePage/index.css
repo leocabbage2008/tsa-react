@@ -13,6 +13,7 @@
 
 h2 {
   font-size: 3rem !important;
+  margin: 8vh 0!important;
 }
 
 h3 {
@@ -22,7 +23,7 @@ h3 {
 }
 
 .container_online {
-  margin: 0 auto 0 10vw;
+  margin-left: 2vw!important;
   width: 40%;
 }
 
