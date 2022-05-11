@@ -2,15 +2,12 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import './index.css';
 import Banner from '../../components/Banner';
+import banner from '../../images/bannerHome.webp';
 
 export default function HomePage() {
   return (
     <Layout>
-      <Banner
-        className='banner'
-        img='/../../../src\images\bannerHome.webp'
-        text='Lantern Festival'
-      />
+      <Banner className='banner' img={banner} text='Lantern Festival' />
 
       <h2 className='text-center font-bold'>
         Experience the Magical Chinese Lantern Festival from the comfort of your
