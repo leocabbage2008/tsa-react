@@ -8,7 +8,7 @@ export default function HomePage() {
     <Layout>
       <Banner
         className='banner'
-        img='https://m.media-amazon.com/images/I/91IqhYCdESL._AC_SL1500_.jpg'
+        img='/../../../src\images\bannerHome.webp'
         text='Lantern Festival'
       />
 
