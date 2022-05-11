@@ -4,10 +4,10 @@ import { Menu, Transition } from '@headlessui/react';
 import ScrollToTop from '../ScrollToTop';
 import logo from '../../logo.webp';
 import { Helmet } from 'react-helmet';
+import { classNames } from '../../utils';
 
-export default function Layout({ children, title }) {
+export default function Layout({ children, title, split282 = false }) {
   const currentYear = new Date().getFullYear();
-  console.log(title);
   return (
     <>
       <Helmet>
@@ -189,8 +189,18 @@ export default function Layout({ children, title }) {
             </div>
           </div>
         </nav>
-        <div className='body w-screen grid grid-cols-12'>
-          <div className='content col-start-2 col-end-12'>{children}</div>
+        <div
+          className={classNames('body', {
+            'w-screen grid grid-cols-12': split282,
+          })}
+        >
+          <div
+            className={classNames('content', {
+              'col-start-2 col-end-12': split282,
+            })}
+          >
+            {children}
+          </div>
         </div>
         <footer className='z-10'>
           <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
