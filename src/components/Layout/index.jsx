@@ -4,9 +4,8 @@ import { Menu, Transition } from '@headlessui/react';
 import ScrollToTop from '../ScrollToTop';
 import logo from '../../logo.webp';
 import { Helmet } from 'react-helmet';
-import { classNames } from '../../utils';
 
-export default function Layout({ children, title, split282 = false }) {
+export default function Layout({ children, title }) {
   const currentYear = new Date().getFullYear();
   return (
     <>
@@ -189,19 +188,7 @@ export default function Layout({ children, title, split282 = false }) {
             </div>
           </div>
         </nav>
-        <div
-          className={classNames('body', {
-            'w-screen grid grid-cols-12': split282,
-          })}
-        >
-          <div
-            className={classNames('content', {
-              'col-start-2 col-end-12': split282,
-            })}
-          >
-            {children}
-          </div>
-        </div>
+        <div className='body w-screen'>{children}</div>
         <footer className='z-10'>
           <div className='z-10 max-w-7xl mx-auto py-4 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
             <div className='z-10 flex justify-center space-x-6 md:order-2 bg-transparent'>

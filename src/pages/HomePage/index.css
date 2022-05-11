@@ -19,7 +19,7 @@ h2 {
 h3 {
   font-size: 3rem !important;
   margin-bottom: 5vh !important;
-  color: var(--light-red)!important;
+  color: var(--light-red) !important;
 }
 
 .container_online {

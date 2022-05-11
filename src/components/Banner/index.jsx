@@ -4,9 +4,9 @@ import empty from '../../empty.webp';
 
 function Banner({ img, text }) {
   return (
-    <div className='relative h-auto pt-0'>
+    <div className='relative pt-0 pb-3.5'>
       <img
-        className='p-0 lazyload object-cover banner w-full brightness-90'
+        className='lazyload object-cover banner w-full'
         src={empty}
         data-srcset={img}
         alt='banner'
