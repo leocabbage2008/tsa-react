@@ -18,9 +18,14 @@ h2 {
 h3 {
   font-size: 3rem !important;
   margin-bottom: 5vh !important;
+  color: var(--light-red)!important;
 }
 
 .container_online {
   margin: 0 auto 0 10vw;
   width: 40%;
+}
+
+.banner {
+  filter: blur(4px);
 }
