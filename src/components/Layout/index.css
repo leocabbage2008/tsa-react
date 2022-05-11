@@ -21,6 +21,7 @@
 
 .body * {
   color: var(--mustard);
+  /* color: #f5efdf; */
 }
 
 #nav * {
@@ -40,11 +41,11 @@ footer * {
   text-align: center;
 }
 
-.outline {
+/* .outline {
   color: var(--mustard) !important;
   text-shadow: 3px 3px 0 var(--black), -1px -1px 0 var(--black),
     1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
-}
+} */
 
 #nav button:hover path {
   color: var(--red);

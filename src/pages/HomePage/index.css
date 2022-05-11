@@ -22,11 +22,15 @@ h3 {
   color: var(--light-red) !important;
 }
 
-.container_online {
+/* .container_online {
   margin-left: 2vw!important;
   width: 40%;
+} */
+
+img {
+  width: 33%;
 }
 
-.banner {
-  /* filter: blur(4px); */
+.online-text {
+  width: 50%;
 }
