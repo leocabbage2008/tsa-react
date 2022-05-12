@@ -17,3 +17,7 @@
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 1px 1px #000000;
 }
+
+.banner {
+  min-height: 500px;
+}

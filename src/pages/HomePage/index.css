@@ -10,23 +10,3 @@
   background-color: var(--light-red);
   color: var(--gold);
 }
-
-h2 {
-  font-size: 3rem !important;
-  margin: 8vh 0!important;
-}
-
-h3 {
-  font-size: 3rem !important;
-  margin-bottom: 5vh !important;
-  color: var(--light-red) !important;
-  font-weight: 600!important;
-}
-/* 
-img {
-  width: 33%;
-}
-
-.online-text {
-  width: 50%;
-} */
