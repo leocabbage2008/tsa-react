@@ -19,13 +19,13 @@ export default function EventsPage() {
       src: riddle,
       title: 'Riddle Guessing',
       time: '1:00PM-2:00PM',
-      text: 'Have fun guessing traditional lantern riddles, written by our team, specially adapted to English! Hard enough to be fun, but simple enough to be solved!',
+      text: 'Have fun guessing traditional lantern riddles, written by our team, specially adapted to English! Hard enough to be fun, but simple enough to be solved! A special prize will be given to those who solve more than 5.',
     },
     {
       src: lantern,
       title: 'Lantern Making',
       time: '2:30PM-4:00PM',
-      text: 'Learn how to make lanterns with people from China, following a easy process that anybody can do and will have fantastic results!',
+      text: 'Learn how to make lanterns with native chinese! This activity has been refined over thousands of years, and is simple to do! Fantastic results guaranteed!',
     },
     {
       src: poems,
@@ -37,7 +37,7 @@ export default function EventsPage() {
       src: festival,
       title: 'Lantern Festival Show',
       time: '7:00PM-10:00PM',
-      text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's a very energetic event.",
+      text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's a very energetic event that everybody attends.",
     },
   ];
   return (
@@ -51,8 +51,8 @@ export default function EventsPage() {
           Here are events that you can do throughout the day to celebrate this
           important day in Chinese culture. We recommend doing as many as
           possible to have a great time, and to learn as much as you can about
-          the Lantern Festival. All activities will be instructed by experts in
-          order to have a great experience.
+          the Lantern Festival. All activities will be safely instructed by
+          experts in order to have a great experience.
         </p>
         <div className='container my-12 mx-auto md:px-12'>
           <div className='flex flex-wrap -mx-1 lg:-mx-4 justify-center'>
@@ -63,8 +63,8 @@ export default function EventsPage() {
               className={className}
             >
               During this 2 hour lesson, you will learn how to make the
-              traditional Tang Yuan with world-renowned chef, Gordo Ramsee. We
-              will be using{' '}
+              traditional Tang Yuan with world-renowned chef, Gordo Ramsee. He
+              is famous for his delicious Tang Yuan Recipe. We will be using{' '}
               <a className='link' href='/festival/recipe'>
                 this
               </a>{' '}
