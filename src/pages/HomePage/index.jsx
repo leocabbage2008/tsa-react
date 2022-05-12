@@ -11,9 +11,15 @@ export default function HomePage() {
       <Banner className='banner' img={banner} text='Lantern Festival' />
 
       <h2 className='text-center font-bold'>
-        Experience the Magical Chinese Lantern Festival from the comfort of your
-        own home
+        Experience the Magical Chinese Lantern Festival,
+        <br></br>
+        from the comfort of your own home!
       </h2>
+      {/*
+        On my computer, the content shows up w/o needing to scroll down.
+        I think it looks better if the content appears when you scroll down.
+      */}
+      <p><br></br><br></br></p>
       <div className='h-screen grid grid-cols-6'>
         <div className='col-start-2 col-end-6'>
           <div className='lg:grid grid-cols-5 lg:grid-column grid-row justify-center'>
