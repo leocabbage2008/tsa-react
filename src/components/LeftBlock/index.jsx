@@ -13,7 +13,7 @@ function LeftBlock({ img, title, children, bg = 'rgba(0,0,0,0)' }) {
       <img
         className='lg:x-0 mx-auto px-1 h-full col-start-4 col-end-6'
         src={img}
-        alt='Block Image'
+        alt='Block'
       />
     </div>
   );

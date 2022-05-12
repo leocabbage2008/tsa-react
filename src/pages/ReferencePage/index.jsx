@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import cc from './Reference/CopyrightChecklist.pdf';
-import wl from './Reference/WorkLog.pdf';
+import rewl from './Reference/WorkLogNationals.pdf';
+import stwl from './Reference/WorkLogStates.pdf';
 
 export default function ReferencePage() {
   return (
@@ -16,18 +17,29 @@ export default function ReferencePage() {
             className='link'
           >
             here.
-          </a>{' '}
+          </a>
         </p>
         <p className='sm:mx-14 mt-6 text-2xl'>
-          Plan of Work log{' '}
+          Plan of Regionals Work log{' '}
           <a
-            href={wl}
+            href={rewl}
             target='_blank'
             rel='noopener noreferrer'
             className='link'
           >
             here.
-          </a>{' '}
+          </a>
+        </p>
+        <p className='sm:mx-14 mt-6 text-2xl'>
+          Plan of States Work log{' '}
+          <a
+            href={stwl}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='link'
+          >
+            here.
+          </a>
         </p>
       </div>
     </Layout>

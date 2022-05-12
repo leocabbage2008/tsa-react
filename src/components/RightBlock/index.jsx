@@ -9,7 +9,7 @@ function RightBlock({ img, title, children, bg = 'rgba(0,0,0,0)' }) {
       <img
         className='lg:x-0 mx-auto px-1 h-full col-start-1 col-end-3'
         src={img}
-        alt='Block Image'
+        alt='Block'
       />
       <div className='content col-start-3 col-end-6'>
         <h3 className='flex justify-end'>{title}</h3>
