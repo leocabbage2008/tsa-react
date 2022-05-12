@@ -10,8 +10,8 @@ export default function AboutUsPage() {
       <div className='content px-4'>
         <p className='text-center text-2xl'>Who Are We?</p>
         <p className='text-center text-xl mt-1'>
-          We are Pennsylvania Region 8 TSA's Website Design Team 1023-901, with
-          members 1023-007, 1023-008 and 1023-006. We chose the Lantern Festival
+          We are Pennsylvania TSAs' Website Design 2570 Team 1, with
+          members 2570-668970, 2570-765690 and 2570-765691. We chose the Lantern Festival
           as our theme because it aims to promote reconciliation, peace, and
           forgiveness. It's also something that we personally have celebrated
           before and we love how energetic and beautiful the celebrations are.
