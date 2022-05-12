@@ -13,8 +13,9 @@ export default function AboutFestivalPage() {
             <div className='content px-4'>
               <p className='text-xl'>
                 The Lantern Festival has been celebrated for 2000 years on the
-                last day of the 15 days of Chinese New Year celebrations, the
-                official date is January 15th on the lunar calendar.
+                last day of the 15 days of Chinese New Year celebrations. The
+                official date is January 15th on the lunar calendar, but the
+                date varies on the solar calendars we commonly use.
               </p>
               <hr />
 

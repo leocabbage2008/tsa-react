@@ -37,21 +37,11 @@ export default function HomePage() {
               here.
             </a>
           </LeftBlock>
-          <RightBlock img={online} title='Online Format'>
-            Due to the Covid-19 pandemic, we will not be hosting our annual
-            celebrations in-person. Instead, we're going to be hosting our
-            events online on February 15th, 2023. Before then, you can learn
-            about the Lantern Festival{' '}
-            <a href='/festival/about' className='link'>
-              here.
-            </a>
-          </RightBlock>
-          <h3>About the event</h3>
-          <p className='mt-10 text-2xl'>
+          <RightBlock img={online} title='About the Event'>
             During this event, we will be making lanterns, guessing riddles,
             making traditional Lantern Festival food, and more. This is an
             wonderful event anybody can attend, completely free of charge!
-          </p>
+          </RightBlock>
         </div>
       </div>
     </Layout>
