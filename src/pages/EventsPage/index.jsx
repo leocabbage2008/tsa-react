@@ -37,7 +37,7 @@ export default function EventsPage() {
       src: festival,
       title: 'Lantern Festival Show',
       time: '7:00PM-10:00PM',
-      text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's an very energetic event.",
+      text: "Watch dancers, comedians, singers and actors perform for the festivities, live from China! This marks the end of the holiday season, so it's a very energetic event.",
     },
   ];
   return (

@@ -24,7 +24,7 @@ export default function AboutFestivalPage() {
             monks would light lanterns in temples on the 15th day of the first
             lunar month. Because of this, he ordered that all households,
             temples, and palaces light lanterns on that evening. This eventually
-            intergrated itself into Chinese tradition.
+            integrated itself into Chinese tradition.
           </p>
           <hr />
 
@@ -42,8 +42,9 @@ export default function AboutFestivalPage() {
           <hr />
 
           <p className='text-xl'>
-            Now, people celebrate the Lantern Festival by lighting and watching
-            lanterns, guessing lantern riddles, and eating Yuan Xiao which you will learn to make on this website.
+            Now, people celebrate the Lantern Festival by spending time with their friends and family, lighting and
+            watching lanterns, guessing lantern riddles, and eating Yuan Xiao - which you will learn to make on this
+            website.
           </p>
         </div>
       </div>

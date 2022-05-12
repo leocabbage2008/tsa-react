@@ -14,7 +14,7 @@ export default function AboutUsPage() {
           members 2570-668970, 2570-765690 and 2570-765691. We chose the Lantern Festival
           as our theme because it aims to promote reconciliation, peace, and
           forgiveness. It's also something that we personally have celebrated
-          before and we love how energetic and beautiful the celebrations are.
+          before, and we love how energetic and beautiful the celebrations are.
         </p>
         <hr />
         <p className='text-center text-xl mt-1'>
