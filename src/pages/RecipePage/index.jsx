@@ -4,7 +4,6 @@ import Recipe from '../../components/Recipe';
 import Directions from '../../components/Directions';
 import Banner from '../../components/Banner';
 import banner from '../../images/bannerRecipes.webp';
-import ContentGrid from '../../components/ContentGrid';
 
 export default function RecipesPage() {
   const ingredients = [
