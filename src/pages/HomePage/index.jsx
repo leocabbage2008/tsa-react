@@ -23,8 +23,7 @@ export default function HomePage() {
       */}
       {/* that's fine, tweaking can come after, there seems to be no issues on my screen*/}
       <p>
-        <br></br>
-        <br></br>
+        <br/><br/><br/><br/>
       </p>
       <div className='h-screen grid grid-cols-6'>
         <div className='col-start-2 col-end-6'>
@@ -37,6 +36,7 @@ export default function HomePage() {
               here.
             </a>
           </LeftBlock>
+            <p><br /></p>
           <RightBlock img={online} title='About the Event'>
             During this event, we will be making lanterns, guessing riddles,
             making traditional Lantern Festival food, and more. This is an
