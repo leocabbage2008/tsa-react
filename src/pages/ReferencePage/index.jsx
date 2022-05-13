@@ -20,7 +20,7 @@ export default function ReferencePage() {
           </a>
         </p>
         <p className='sm:mx-14 mt-6 text-2xl'>
-          Plan of Regionals Work log{' '}
+          Regionals Plan of Work log{' '}
           <a
             href={rewl}
             target='_blank'
@@ -31,9 +31,9 @@ export default function ReferencePage() {
           </a>
         </p>
         <p className='sm:mx-14 mt-6 text-2xl'>
-          Plan of States Work log{' '}
+          Nationals Plan of Work log{' '}
           <a
-            href={stwl}
+            href={rewl}
             target='_blank'
             rel='noopener noreferrer'
             className='link'
