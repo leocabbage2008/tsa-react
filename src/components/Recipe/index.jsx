@@ -4,7 +4,7 @@ import './index.css';
 export default function Recipe({ ingredients }) {
   return (
     <div className='mt-10'>
-      <h1>Ingredients:</h1>
+      <h1 className='text-xl'>Ingredients:</h1>
       <fieldset className='ml-5 space-y-5 ingredients'>
         {ingredients.map((v, i) => (
           <div className='relative flex items-start' key={i}>
@@ -17,10 +17,9 @@ export default function Recipe({ ingredients }) {
                   id={`ingredient-${i}`}
                   name='ingredient'
                   type='checkbox'
-                  className='h-4 w-4 mr-2'
                 />
-                <span>{v.ingredient}</span>
               </label>
+              <span className='text-xl'>{v.ingredient}</span>
             </div>
           </div>
         ))}

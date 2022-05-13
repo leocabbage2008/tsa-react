@@ -39,7 +39,7 @@ export default function Card({
               aria-controls={`acc-toggle${id}`}
             >
               <div className='flex flex-col'>
-                <span>{title}</span>
+                <span className='text-xl'>{title}</span>
                 <span className='text-xs'>{time}</span>
               </div>
             </button>

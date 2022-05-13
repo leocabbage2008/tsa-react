@@ -4,6 +4,7 @@ import Recipe from '../../components/Recipe';
 import Directions from '../../components/Directions';
 import Banner from '../../components/Banner';
 import banner from '../../images/bannerRecipes.webp';
+import ContentGrid from '../../components/ContentGrid';
 
 export default function RecipesPage() {
   const ingredients = [
@@ -47,7 +48,8 @@ export default function RecipesPage() {
   return (
     <Layout title='Recipe'>
       <Banner img={banner} text='Recipe' />
-      <div className='content px-4'>
+      <h2 className='text-center font-bold'>Learn how to make Tang Yuan!</h2>
+      <div className='content px-5'>
         <h1 className='text-center text-xl'>
           Today we're going to be learning how to make the Chinese dish, Yuan
           Xiao. Yuan Xiao is a traditional Lantern Festival dish typically eaten

@@ -7,22 +7,30 @@ import banner from '../../images/bannerSources.webp';
 export default function SourcesPage() {
   const sources = [
     {
-      title: 'Information source',
+      title: 'Information Source',
       citeSource:
         'https://www.chinahighlights.com/festivals/lantern-festival.htm',
       author: 'Cindy',
-      licenseLink: '',
-      licenseName: '',
       from: 'China Highlights',
     },
     {
-      title: 'Homepage Banner Source',
+      title: 'Home Card 1 Source',
+      citeSource: 'https://unsplash.com/photos/ax3lbQfdXP0',
+      author: 'Samantha Borges',
+      from: 'Unsplash',
+    },
+    {
+      title: 'Home Card 2 Source',
+      citeSource: 'https://unsplash.com/photos/wwYvNI94mac',
+      author: 'Sandra Seitamaa',
+      from: 'Unsplash',
+    },
+    {
+      title: 'Home Banner Source',
       citeSource:
-        'https://commons.wikimedia.org/wiki/File:Chinese_New_Year_Celebrations_with_Lanterns_in_Singapore.jpg',
-      author: 'Dileep Kaluaratchie',
-      licenseLink: 'https://creativecommons.org/licenses/by-sa/4.0',
-      licenseName: 'CC BY-SA 4.0',
-      from: 'Wikimedia Commons',
+        'https://medium.com/@daviducheokafor/to-live-or-to-die-9ddb070623e8',
+      author: 'David U. Okafor',
+      from: 'Medium',
     },
     {
       title: 'About Us Page Banner Source',
@@ -74,8 +82,6 @@ export default function SourcesPage() {
       title: 'Recipe Source',
       citeSource: 'https://thewoksoflife.com/tang-yuan-recipe/',
       author: 'JUDY',
-      licenseLink: '',
-      licenseName: '',
       from: 'The Woks Of Life',
     },
     {
@@ -101,8 +107,6 @@ export default function SourcesPage() {
       citeSource:
         'https://thewoksoflife.com/wp-content/uploads/2016/01/tang-yuan-3.jpg',
       author: 'Jleung',
-      licenseLink: '',
-      licenseName: '',
       from: 'The Woks of Life',
     },
     {
